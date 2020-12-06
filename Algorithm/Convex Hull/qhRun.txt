@@ -1,0 +1,6643 @@
+After sorting source copy of size 200
+
+1
+X : 1
+Y : 5
+
+2
+X : 1
+Y : 67
+
+3
+X : 2
+Y : 129
+
+4
+X : 2
+Y : 144
+
+5
+X : 4
+Y : 155
+
+6
+X : 4
+Y : 176
+
+7
+X : 4
+Y : 194
+
+8
+X : 5
+Y : 193
+
+9
+X : 7
+Y : 75
+
+10
+X : 8
+Y : 87
+
+11
+X : 9
+Y : 59
+
+12
+X : 10
+Y : 111
+
+13
+X : 10
+Y : 136
+
+14
+X : 11
+Y : 139
+
+15
+X : 11
+Y : 143
+
+16
+X : 11
+Y : 148
+
+17
+X : 12
+Y : 87
+
+18
+X : 12
+Y : 139
+
+19
+X : 13
+Y : 104
+
+20
+X : 16
+Y : 108
+
+21
+X : 18
+Y : 104
+
+22
+X : 18
+Y : 179
+
+23
+X : 19
+Y : 44
+
+24
+X : 19
+Y : 103
+
+25
+X : 21
+Y : 49
+
+26
+X : 21
+Y : 184
+
+27
+X : 22
+Y : 140
+
+28
+X : 24
+Y : 19
+
+29
+X : 24
+Y : 62
+
+30
+X : 24
+Y : 120
+
+31
+X : 26
+Y : 44
+
+32
+X : 26
+Y : 140
+
+33
+X : 27
+Y : 162
+
+34
+X : 28
+Y : 18
+
+35
+X : 28
+Y : 22
+
+36
+X : 28
+Y : 37
+
+37
+X : 28
+Y : 105
+
+38
+X : 28
+Y : 164
+
+39
+X : 29
+Y : 132
+
+40
+X : 29
+Y : 167
+
+41
+X : 36
+Y : 0
+
+42
+X : 37
+Y : 29
+
+43
+X : 37
+Y : 124
+
+44
+X : 40
+Y : 6
+
+45
+X : 41
+Y : 86
+
+46
+X : 42
+Y : 11
+
+47
+X : 42
+Y : 40
+
+48
+X : 45
+Y : 18
+
+49
+X : 50
+Y : 72
+
+50
+X : 51
+Y : 3
+
+51
+X : 51
+Y : 46
+
+52
+X : 55
+Y : 50
+
+53
+X : 55
+Y : 121
+
+54
+X : 56
+Y : 167
+
+55
+X : 56
+Y : 187
+
+56
+X : 56
+Y : 193
+
+57
+X : 57
+Y : 113
+
+58
+X : 58
+Y : 22
+
+59
+X : 58
+Y : 82
+
+60
+X : 58
+Y : 184
+
+61
+X : 59
+Y : 90
+
+62
+X : 59
+Y : 126
+
+63
+X : 60
+Y : 132
+
+64
+X : 64
+Y : 142
+
+65
+X : 65
+Y : 122
+
+66
+X : 66
+Y : 126
+
+67
+X : 67
+Y : 140
+
+68
+X : 68
+Y : 13
+
+69
+X : 68
+Y : 42
+
+70
+X : 69
+Y : 22
+
+71
+X : 71
+Y : 68
+
+72
+X : 71
+Y : 128
+
+73
+X : 73
+Y : 156
+
+74
+X : 75
+Y : 81
+
+75
+X : 80
+Y : 101
+
+76
+X : 81
+Y : 196
+
+77
+X : 81
+Y : 196
+
+78
+X : 82
+Y : 69
+
+79
+X : 83
+Y : 106
+
+80
+X : 84
+Y : 30
+
+81
+X : 84
+Y : 90
+
+82
+X : 84
+Y : 179
+
+83
+X : 86
+Y : 183
+
+84
+X : 88
+Y : 128
+
+85
+X : 88
+Y : 179
+
+86
+X : 89
+Y : 65
+
+87
+X : 91
+Y : 143
+
+88
+X : 92
+Y : 117
+
+89
+X : 92
+Y : 186
+
+90
+X : 94
+Y : 133
+
+91
+X : 95
+Y : 124
+
+92
+X : 95
+Y : 190
+
+93
+X : 99
+Y : 22
+
+94
+X : 99
+Y : 52
+
+95
+X : 99
+Y : 90
+
+96
+X : 100
+Y : 193
+
+97
+X : 101
+Y : 6
+
+98
+X : 102
+Y : 97
+
+99
+X : 104
+Y : 121
+
+100
+X : 105
+Y : 78
+
+101
+X : 105
+Y : 136
+
+102
+X : 106
+Y : 2
+
+103
+X : 107
+Y : 136
+
+104
+X : 107
+Y : 197
+
+105
+X : 113
+Y : 98
+
+106
+X : 114
+Y : 124
+
+107
+X : 115
+Y : 108
+
+108
+X : 115
+Y : 177
+
+109
+X : 117
+Y : 31
+
+110
+X : 117
+Y : 169
+
+111
+X : 119
+Y : 21
+
+112
+X : 121
+Y : 74
+
+113
+X : 123
+Y : 62
+
+114
+X : 123
+Y : 196
+
+115
+X : 124
+Y : 198
+
+116
+X : 125
+Y : 105
+
+117
+X : 125
+Y : 172
+
+118
+X : 126
+Y : 13
+
+119
+X : 126
+Y : 163
+
+120
+X : 127
+Y : 84
+
+121
+X : 127
+Y : 109
+
+122
+X : 129
+Y : 40
+
+123
+X : 129
+Y : 46
+
+124
+X : 129
+Y : 128
+
+125
+X : 130
+Y : 61
+
+126
+X : 130
+Y : 81
+
+127
+X : 130
+Y : 182
+
+128
+X : 131
+Y : 173
+
+129
+X : 135
+Y : 67
+
+130
+X : 135
+Y : 193
+
+131
+X : 136
+Y : 19
+
+132
+X : 136
+Y : 59
+
+133
+X : 136
+Y : 120
+
+134
+X : 136
+Y : 172
+
+135
+X : 137
+Y : 184
+
+136
+X : 138
+Y : 13
+
+137
+X : 139
+Y : 94
+
+138
+X : 139
+Y : 105
+
+139
+X : 140
+Y : 84
+
+140
+X : 142
+Y : 60
+
+141
+X : 142
+Y : 176
+
+142
+X : 143
+Y : 99
+
+143
+X : 143
+Y : 124
+
+144
+X : 145
+Y : 182
+
+145
+X : 149
+Y : 140
+
+146
+X : 150
+Y : 41
+
+147
+X : 150
+Y : 43
+
+148
+X : 150
+Y : 127
+
+149
+X : 150
+Y : 179
+
+150
+X : 151
+Y : 32
+
+151
+X : 153
+Y : 97
+
+152
+X : 154
+Y : 161
+
+153
+X : 155
+Y : 121
+
+154
+X : 155
+Y : 132
+
+155
+X : 156
+Y : 45
+
+156
+X : 156
+Y : 52
+
+157
+X : 163
+Y : 43
+
+158
+X : 163
+Y : 60
+
+159
+X : 164
+Y : 34
+
+160
+X : 164
+Y : 34
+
+161
+X : 165
+Y : 27
+
+162
+X : 165
+Y : 186
+
+163
+X : 167
+Y : 14
+
+164
+X : 167
+Y : 21
+
+165
+X : 167
+Y : 69
+
+166
+X : 168
+Y : 11
+
+167
+X : 168
+Y : 70
+
+168
+X : 168
+Y : 76
+
+169
+X : 168
+Y : 146
+
+170
+X : 169
+Y : 179
+
+171
+X : 170
+Y : 62
+
+172
+X : 170
+Y : 115
+
+173
+X : 170
+Y : 195
+
+174
+X : 171
+Y : 97
+
+175
+X : 172
+Y : 92
+
+176
+X : 172
+Y : 113
+
+177
+X : 172
+Y : 148
+
+178
+X : 173
+Y : 29
+
+179
+X : 173
+Y : 159
+
+180
+X : 176
+Y : 73
+
+181
+X : 178
+Y : 34
+
+182
+X : 178
+Y : 76
+
+183
+X : 180
+Y : 91
+
+184
+X : 181
+Y : 9
+
+185
+X : 181
+Y : 199
+
+186
+X : 183
+Y : 70
+
+187
+X : 184
+Y : 188
+
+188
+X : 185
+Y : 25
+
+189
+X : 186
+Y : 26
+
+190
+X : 186
+Y : 154
+
+191
+X : 187
+Y : 142
+
+192
+X : 190
+Y : 44
+
+193
+X : 190
+Y : 98
+
+194
+X : 190
+Y : 124
+
+195
+X : 193
+Y : 35
+
+196
+X : 195
+Y : 58
+
+197
+X : 196
+Y : 99
+
+198
+X : 196
+Y : 117
+
+199
+X : 199
+Y : 19
+
+200
+X : 199
+Y : 154
+Deleted Index 0, src current size 199
+
+1
+X : 1
+Y : 67
+
+2
+X : 2
+Y : 129
+
+3
+X : 2
+Y : 144
+
+4
+X : 4
+Y : 155
+
+5
+X : 4
+Y : 176
+
+6
+X : 4
+Y : 194
+
+7
+X : 5
+Y : 193
+
+8
+X : 7
+Y : 75
+
+9
+X : 8
+Y : 87
+
+10
+X : 9
+Y : 59
+
+11
+X : 10
+Y : 111
+
+12
+X : 10
+Y : 136
+
+13
+X : 11
+Y : 139
+
+14
+X : 11
+Y : 143
+
+15
+X : 11
+Y : 148
+
+16
+X : 12
+Y : 87
+
+17
+X : 12
+Y : 139
+
+18
+X : 13
+Y : 104
+
+19
+X : 16
+Y : 108
+
+20
+X : 18
+Y : 104
+
+21
+X : 18
+Y : 179
+
+22
+X : 19
+Y : 44
+
+23
+X : 19
+Y : 103
+
+24
+X : 21
+Y : 49
+
+25
+X : 21
+Y : 184
+
+26
+X : 22
+Y : 140
+
+27
+X : 24
+Y : 19
+
+28
+X : 24
+Y : 62
+
+29
+X : 24
+Y : 120
+
+30
+X : 26
+Y : 44
+
+31
+X : 26
+Y : 140
+
+32
+X : 27
+Y : 162
+
+33
+X : 28
+Y : 18
+
+34
+X : 28
+Y : 22
+
+35
+X : 28
+Y : 37
+
+36
+X : 28
+Y : 105
+
+37
+X : 28
+Y : 164
+
+38
+X : 29
+Y : 132
+
+39
+X : 29
+Y : 167
+
+40
+X : 36
+Y : 0
+
+41
+X : 37
+Y : 29
+
+42
+X : 37
+Y : 124
+
+43
+X : 40
+Y : 6
+
+44
+X : 41
+Y : 86
+
+45
+X : 42
+Y : 11
+
+46
+X : 42
+Y : 40
+
+47
+X : 45
+Y : 18
+
+48
+X : 50
+Y : 72
+
+49
+X : 51
+Y : 3
+
+50
+X : 51
+Y : 46
+
+51
+X : 55
+Y : 50
+
+52
+X : 55
+Y : 121
+
+53
+X : 56
+Y : 167
+
+54
+X : 56
+Y : 187
+
+55
+X : 56
+Y : 193
+
+56
+X : 57
+Y : 113
+
+57
+X : 58
+Y : 22
+
+58
+X : 58
+Y : 82
+
+59
+X : 58
+Y : 184
+
+60
+X : 59
+Y : 90
+
+61
+X : 59
+Y : 126
+
+62
+X : 60
+Y : 132
+
+63
+X : 64
+Y : 142
+
+64
+X : 65
+Y : 122
+
+65
+X : 66
+Y : 126
+
+66
+X : 67
+Y : 140
+
+67
+X : 68
+Y : 13
+
+68
+X : 68
+Y : 42
+
+69
+X : 69
+Y : 22
+
+70
+X : 71
+Y : 68
+
+71
+X : 71
+Y : 128
+
+72
+X : 73
+Y : 156
+
+73
+X : 75
+Y : 81
+
+74
+X : 80
+Y : 101
+
+75
+X : 81
+Y : 196
+
+76
+X : 81
+Y : 196
+
+77
+X : 82
+Y : 69
+
+78
+X : 83
+Y : 106
+
+79
+X : 84
+Y : 30
+
+80
+X : 84
+Y : 90
+
+81
+X : 84
+Y : 179
+
+82
+X : 86
+Y : 183
+
+83
+X : 88
+Y : 128
+
+84
+X : 88
+Y : 179
+
+85
+X : 89
+Y : 65
+
+86
+X : 91
+Y : 143
+
+87
+X : 92
+Y : 117
+
+88
+X : 92
+Y : 186
+
+89
+X : 94
+Y : 133
+
+90
+X : 95
+Y : 124
+
+91
+X : 95
+Y : 190
+
+92
+X : 99
+Y : 22
+
+93
+X : 99
+Y : 52
+
+94
+X : 99
+Y : 90
+
+95
+X : 100
+Y : 193
+
+96
+X : 101
+Y : 6
+
+97
+X : 102
+Y : 97
+
+98
+X : 104
+Y : 121
+
+99
+X : 105
+Y : 78
+
+100
+X : 105
+Y : 136
+
+101
+X : 106
+Y : 2
+
+102
+X : 107
+Y : 136
+
+103
+X : 107
+Y : 197
+
+104
+X : 113
+Y : 98
+
+105
+X : 114
+Y : 124
+
+106
+X : 115
+Y : 108
+
+107
+X : 115
+Y : 177
+
+108
+X : 117
+Y : 31
+
+109
+X : 117
+Y : 169
+
+110
+X : 119
+Y : 21
+
+111
+X : 121
+Y : 74
+
+112
+X : 123
+Y : 62
+
+113
+X : 123
+Y : 196
+
+114
+X : 124
+Y : 198
+
+115
+X : 125
+Y : 105
+
+116
+X : 125
+Y : 172
+
+117
+X : 126
+Y : 13
+
+118
+X : 126
+Y : 163
+
+119
+X : 127
+Y : 84
+
+120
+X : 127
+Y : 109
+
+121
+X : 129
+Y : 40
+
+122
+X : 129
+Y : 46
+
+123
+X : 129
+Y : 128
+
+124
+X : 130
+Y : 61
+
+125
+X : 130
+Y : 81
+
+126
+X : 130
+Y : 182
+
+127
+X : 131
+Y : 173
+
+128
+X : 135
+Y : 67
+
+129
+X : 135
+Y : 193
+
+130
+X : 136
+Y : 19
+
+131
+X : 136
+Y : 59
+
+132
+X : 136
+Y : 120
+
+133
+X : 136
+Y : 172
+
+134
+X : 137
+Y : 184
+
+135
+X : 138
+Y : 13
+
+136
+X : 139
+Y : 94
+
+137
+X : 139
+Y : 105
+
+138
+X : 140
+Y : 84
+
+139
+X : 142
+Y : 60
+
+140
+X : 142
+Y : 176
+
+141
+X : 143
+Y : 99
+
+142
+X : 143
+Y : 124
+
+143
+X : 145
+Y : 182
+
+144
+X : 149
+Y : 140
+
+145
+X : 150
+Y : 41
+
+146
+X : 150
+Y : 43
+
+147
+X : 150
+Y : 127
+
+148
+X : 150
+Y : 179
+
+149
+X : 151
+Y : 32
+
+150
+X : 153
+Y : 97
+
+151
+X : 154
+Y : 161
+
+152
+X : 155
+Y : 121
+
+153
+X : 155
+Y : 132
+
+154
+X : 156
+Y : 45
+
+155
+X : 156
+Y : 52
+
+156
+X : 163
+Y : 43
+
+157
+X : 163
+Y : 60
+
+158
+X : 164
+Y : 34
+
+159
+X : 164
+Y : 34
+
+160
+X : 165
+Y : 27
+
+161
+X : 165
+Y : 186
+
+162
+X : 167
+Y : 14
+
+163
+X : 167
+Y : 21
+
+164
+X : 167
+Y : 69
+
+165
+X : 168
+Y : 11
+
+166
+X : 168
+Y : 70
+
+167
+X : 168
+Y : 76
+
+168
+X : 168
+Y : 146
+
+169
+X : 169
+Y : 179
+
+170
+X : 170
+Y : 62
+
+171
+X : 170
+Y : 115
+
+172
+X : 170
+Y : 195
+
+173
+X : 171
+Y : 97
+
+174
+X : 172
+Y : 92
+
+175
+X : 172
+Y : 113
+
+176
+X : 172
+Y : 148
+
+177
+X : 173
+Y : 29
+
+178
+X : 173
+Y : 159
+
+179
+X : 176
+Y : 73
+
+180
+X : 178
+Y : 34
+
+181
+X : 178
+Y : 76
+
+182
+X : 180
+Y : 91
+
+183
+X : 181
+Y : 9
+
+184
+X : 181
+Y : 199
+
+185
+X : 183
+Y : 70
+
+186
+X : 184
+Y : 188
+
+187
+X : 185
+Y : 25
+
+188
+X : 186
+Y : 26
+
+189
+X : 186
+Y : 154
+
+190
+X : 187
+Y : 142
+
+191
+X : 190
+Y : 44
+
+192
+X : 190
+Y : 98
+
+193
+X : 190
+Y : 124
+
+194
+X : 193
+Y : 35
+
+195
+X : 195
+Y : 58
+
+196
+X : 196
+Y : 99
+
+197
+X : 196
+Y : 117
+
+198
+X : 199
+Y : 19
+
+199
+X : 199
+Y : 154
+Deleted Index 198, src current size 198
+
+1
+X : 1
+Y : 67
+
+2
+X : 2
+Y : 129
+
+3
+X : 2
+Y : 144
+
+4
+X : 4
+Y : 155
+
+5
+X : 4
+Y : 176
+
+6
+X : 4
+Y : 194
+
+7
+X : 5
+Y : 193
+
+8
+X : 7
+Y : 75
+
+9
+X : 8
+Y : 87
+
+10
+X : 9
+Y : 59
+
+11
+X : 10
+Y : 111
+
+12
+X : 10
+Y : 136
+
+13
+X : 11
+Y : 139
+
+14
+X : 11
+Y : 143
+
+15
+X : 11
+Y : 148
+
+16
+X : 12
+Y : 87
+
+17
+X : 12
+Y : 139
+
+18
+X : 13
+Y : 104
+
+19
+X : 16
+Y : 108
+
+20
+X : 18
+Y : 104
+
+21
+X : 18
+Y : 179
+
+22
+X : 19
+Y : 44
+
+23
+X : 19
+Y : 103
+
+24
+X : 21
+Y : 49
+
+25
+X : 21
+Y : 184
+
+26
+X : 22
+Y : 140
+
+27
+X : 24
+Y : 19
+
+28
+X : 24
+Y : 62
+
+29
+X : 24
+Y : 120
+
+30
+X : 26
+Y : 44
+
+31
+X : 26
+Y : 140
+
+32
+X : 27
+Y : 162
+
+33
+X : 28
+Y : 18
+
+34
+X : 28
+Y : 22
+
+35
+X : 28
+Y : 37
+
+36
+X : 28
+Y : 105
+
+37
+X : 28
+Y : 164
+
+38
+X : 29
+Y : 132
+
+39
+X : 29
+Y : 167
+
+40
+X : 36
+Y : 0
+
+41
+X : 37
+Y : 29
+
+42
+X : 37
+Y : 124
+
+43
+X : 40
+Y : 6
+
+44
+X : 41
+Y : 86
+
+45
+X : 42
+Y : 11
+
+46
+X : 42
+Y : 40
+
+47
+X : 45
+Y : 18
+
+48
+X : 50
+Y : 72
+
+49
+X : 51
+Y : 3
+
+50
+X : 51
+Y : 46
+
+51
+X : 55
+Y : 50
+
+52
+X : 55
+Y : 121
+
+53
+X : 56
+Y : 167
+
+54
+X : 56
+Y : 187
+
+55
+X : 56
+Y : 193
+
+56
+X : 57
+Y : 113
+
+57
+X : 58
+Y : 22
+
+58
+X : 58
+Y : 82
+
+59
+X : 58
+Y : 184
+
+60
+X : 59
+Y : 90
+
+61
+X : 59
+Y : 126
+
+62
+X : 60
+Y : 132
+
+63
+X : 64
+Y : 142
+
+64
+X : 65
+Y : 122
+
+65
+X : 66
+Y : 126
+
+66
+X : 67
+Y : 140
+
+67
+X : 68
+Y : 13
+
+68
+X : 68
+Y : 42
+
+69
+X : 69
+Y : 22
+
+70
+X : 71
+Y : 68
+
+71
+X : 71
+Y : 128
+
+72
+X : 73
+Y : 156
+
+73
+X : 75
+Y : 81
+
+74
+X : 80
+Y : 101
+
+75
+X : 81
+Y : 196
+
+76
+X : 81
+Y : 196
+
+77
+X : 82
+Y : 69
+
+78
+X : 83
+Y : 106
+
+79
+X : 84
+Y : 30
+
+80
+X : 84
+Y : 90
+
+81
+X : 84
+Y : 179
+
+82
+X : 86
+Y : 183
+
+83
+X : 88
+Y : 128
+
+84
+X : 88
+Y : 179
+
+85
+X : 89
+Y : 65
+
+86
+X : 91
+Y : 143
+
+87
+X : 92
+Y : 117
+
+88
+X : 92
+Y : 186
+
+89
+X : 94
+Y : 133
+
+90
+X : 95
+Y : 124
+
+91
+X : 95
+Y : 190
+
+92
+X : 99
+Y : 22
+
+93
+X : 99
+Y : 52
+
+94
+X : 99
+Y : 90
+
+95
+X : 100
+Y : 193
+
+96
+X : 101
+Y : 6
+
+97
+X : 102
+Y : 97
+
+98
+X : 104
+Y : 121
+
+99
+X : 105
+Y : 78
+
+100
+X : 105
+Y : 136
+
+101
+X : 106
+Y : 2
+
+102
+X : 107
+Y : 136
+
+103
+X : 107
+Y : 197
+
+104
+X : 113
+Y : 98
+
+105
+X : 114
+Y : 124
+
+106
+X : 115
+Y : 108
+
+107
+X : 115
+Y : 177
+
+108
+X : 117
+Y : 31
+
+109
+X : 117
+Y : 169
+
+110
+X : 119
+Y : 21
+
+111
+X : 121
+Y : 74
+
+112
+X : 123
+Y : 62
+
+113
+X : 123
+Y : 196
+
+114
+X : 124
+Y : 198
+
+115
+X : 125
+Y : 105
+
+116
+X : 125
+Y : 172
+
+117
+X : 126
+Y : 13
+
+118
+X : 126
+Y : 163
+
+119
+X : 127
+Y : 84
+
+120
+X : 127
+Y : 109
+
+121
+X : 129
+Y : 40
+
+122
+X : 129
+Y : 46
+
+123
+X : 129
+Y : 128
+
+124
+X : 130
+Y : 61
+
+125
+X : 130
+Y : 81
+
+126
+X : 130
+Y : 182
+
+127
+X : 131
+Y : 173
+
+128
+X : 135
+Y : 67
+
+129
+X : 135
+Y : 193
+
+130
+X : 136
+Y : 19
+
+131
+X : 136
+Y : 59
+
+132
+X : 136
+Y : 120
+
+133
+X : 136
+Y : 172
+
+134
+X : 137
+Y : 184
+
+135
+X : 138
+Y : 13
+
+136
+X : 139
+Y : 94
+
+137
+X : 139
+Y : 105
+
+138
+X : 140
+Y : 84
+
+139
+X : 142
+Y : 60
+
+140
+X : 142
+Y : 176
+
+141
+X : 143
+Y : 99
+
+142
+X : 143
+Y : 124
+
+143
+X : 145
+Y : 182
+
+144
+X : 149
+Y : 140
+
+145
+X : 150
+Y : 41
+
+146
+X : 150
+Y : 43
+
+147
+X : 150
+Y : 127
+
+148
+X : 150
+Y : 179
+
+149
+X : 151
+Y : 32
+
+150
+X : 153
+Y : 97
+
+151
+X : 154
+Y : 161
+
+152
+X : 155
+Y : 121
+
+153
+X : 155
+Y : 132
+
+154
+X : 156
+Y : 45
+
+155
+X : 156
+Y : 52
+
+156
+X : 163
+Y : 43
+
+157
+X : 163
+Y : 60
+
+158
+X : 164
+Y : 34
+
+159
+X : 164
+Y : 34
+
+160
+X : 165
+Y : 27
+
+161
+X : 165
+Y : 186
+
+162
+X : 167
+Y : 14
+
+163
+X : 167
+Y : 21
+
+164
+X : 167
+Y : 69
+
+165
+X : 168
+Y : 11
+
+166
+X : 168
+Y : 70
+
+167
+X : 168
+Y : 76
+
+168
+X : 168
+Y : 146
+
+169
+X : 169
+Y : 179
+
+170
+X : 170
+Y : 62
+
+171
+X : 170
+Y : 115
+
+172
+X : 170
+Y : 195
+
+173
+X : 171
+Y : 97
+
+174
+X : 172
+Y : 92
+
+175
+X : 172
+Y : 113
+
+176
+X : 172
+Y : 148
+
+177
+X : 173
+Y : 29
+
+178
+X : 173
+Y : 159
+
+179
+X : 176
+Y : 73
+
+180
+X : 178
+Y : 34
+
+181
+X : 178
+Y : 76
+
+182
+X : 180
+Y : 91
+
+183
+X : 181
+Y : 9
+
+184
+X : 181
+Y : 199
+
+185
+X : 183
+Y : 70
+
+186
+X : 184
+Y : 188
+
+187
+X : 185
+Y : 25
+
+188
+X : 186
+Y : 26
+
+189
+X : 186
+Y : 154
+
+190
+X : 187
+Y : 142
+
+191
+X : 190
+Y : 44
+
+192
+X : 190
+Y : 98
+
+193
+X : 190
+Y : 124
+
+194
+X : 193
+Y : 35
+
+195
+X : 195
+Y : 58
+
+196
+X : 196
+Y : 99
+
+197
+X : 196
+Y : 117
+
+198
+X : 199
+Y : 19
+Printing Hull of Size 2
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+INIT ORIENT: -1 | INSERTING TOP...
+X : 1
+Y : 67
+INIT ORIENT: -1 | INSERTING TOP...
+X : 2
+Y : 129
+INIT ORIENT: -1 | INSERTING TOP...
+X : 2
+Y : 144
+INIT ORIENT: -1 | INSERTING TOP...
+X : 4
+Y : 155
+INIT ORIENT: -1 | INSERTING TOP...
+X : 4
+Y : 176
+INIT ORIENT: -1 | INSERTING TOP...
+X : 4
+Y : 194
+INIT ORIENT: -1 | INSERTING TOP...
+X : 5
+Y : 193
+INIT ORIENT: -1 | INSERTING TOP...
+X : 7
+Y : 75
+INIT ORIENT: -1 | INSERTING TOP...
+X : 8
+Y : 87
+INIT ORIENT: -1 | INSERTING TOP...
+X : 9
+Y : 59
+INIT ORIENT: -1 | INSERTING TOP...
+X : 10
+Y : 111
+INIT ORIENT: -1 | INSERTING TOP...
+X : 10
+Y : 136
+INIT ORIENT: -1 | INSERTING TOP...
+X : 11
+Y : 139
+INIT ORIENT: -1 | INSERTING TOP...
+X : 11
+Y : 143
+INIT ORIENT: -1 | INSERTING TOP...
+X : 11
+Y : 148
+INIT ORIENT: -1 | INSERTING TOP...
+X : 12
+Y : 87
+INIT ORIENT: -1 | INSERTING TOP...
+X : 12
+Y : 139
+INIT ORIENT: -1 | INSERTING TOP...
+X : 13
+Y : 104
+INIT ORIENT: -1 | INSERTING TOP...
+X : 16
+Y : 108
+INIT ORIENT: -1 | INSERTING TOP...
+X : 18
+Y : 104
+INIT ORIENT: -1 | INSERTING TOP...
+X : 18
+Y : 179
+INIT ORIENT: -1 | INSERTING TOP...
+X : 19
+Y : 44
+INIT ORIENT: -1 | INSERTING TOP...
+X : 19
+Y : 103
+INIT ORIENT: -1 | INSERTING TOP...
+X : 21
+Y : 49
+INIT ORIENT: -1 | INSERTING TOP...
+X : 21
+Y : 184
+INIT ORIENT: -1 | INSERTING TOP...
+X : 22
+Y : 140
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 24
+Y : 19
+INIT ORIENT: -1 | INSERTING TOP...
+X : 24
+Y : 62
+INIT ORIENT: -1 | INSERTING TOP...
+X : 24
+Y : 120
+INIT ORIENT: -1 | INSERTING TOP...
+X : 26
+Y : 44
+INIT ORIENT: -1 | INSERTING TOP...
+X : 26
+Y : 140
+INIT ORIENT: -1 | INSERTING TOP...
+X : 27
+Y : 162
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 28
+Y : 18
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 28
+Y : 22
+INIT ORIENT: -1 | INSERTING TOP...
+X : 28
+Y : 37
+INIT ORIENT: -1 | INSERTING TOP...
+X : 28
+Y : 105
+INIT ORIENT: -1 | INSERTING TOP...
+X : 28
+Y : 164
+INIT ORIENT: -1 | INSERTING TOP...
+X : 29
+Y : 132
+INIT ORIENT: -1 | INSERTING TOP...
+X : 29
+Y : 167
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 36
+Y : 0
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 37
+Y : 29
+INIT ORIENT: -1 | INSERTING TOP...
+X : 37
+Y : 124
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 40
+Y : 6
+INIT ORIENT: -1 | INSERTING TOP...
+X : 41
+Y : 86
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 42
+Y : 11
+INIT ORIENT: -1 | INSERTING TOP...
+X : 42
+Y : 40
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 45
+Y : 18
+INIT ORIENT: -1 | INSERTING TOP...
+X : 50
+Y : 72
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 51
+Y : 3
+INIT ORIENT: -1 | INSERTING TOP...
+X : 51
+Y : 46
+INIT ORIENT: -1 | INSERTING TOP...
+X : 55
+Y : 50
+INIT ORIENT: -1 | INSERTING TOP...
+X : 55
+Y : 121
+INIT ORIENT: -1 | INSERTING TOP...
+X : 56
+Y : 167
+INIT ORIENT: -1 | INSERTING TOP...
+X : 56
+Y : 187
+INIT ORIENT: -1 | INSERTING TOP...
+X : 56
+Y : 193
+INIT ORIENT: -1 | INSERTING TOP...
+X : 57
+Y : 113
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 58
+Y : 22
+INIT ORIENT: -1 | INSERTING TOP...
+X : 58
+Y : 82
+INIT ORIENT: -1 | INSERTING TOP...
+X : 58
+Y : 184
+INIT ORIENT: -1 | INSERTING TOP...
+X : 59
+Y : 90
+INIT ORIENT: -1 | INSERTING TOP...
+X : 59
+Y : 126
+INIT ORIENT: -1 | INSERTING TOP...
+X : 60
+Y : 132
+INIT ORIENT: -1 | INSERTING TOP...
+X : 64
+Y : 142
+INIT ORIENT: -1 | INSERTING TOP...
+X : 65
+Y : 122
+INIT ORIENT: -1 | INSERTING TOP...
+X : 66
+Y : 126
+INIT ORIENT: -1 | INSERTING TOP...
+X : 67
+Y : 140
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 68
+Y : 13
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 68
+Y : 42
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 69
+Y : 22
+INIT ORIENT: -1 | INSERTING TOP...
+X : 71
+Y : 68
+INIT ORIENT: -1 | INSERTING TOP...
+X : 71
+Y : 128
+INIT ORIENT: -1 | INSERTING TOP...
+X : 73
+Y : 156
+INIT ORIENT: -1 | INSERTING TOP...
+X : 75
+Y : 81
+INIT ORIENT: -1 | INSERTING TOP...
+X : 80
+Y : 101
+INIT ORIENT: -1 | INSERTING TOP...
+X : 81
+Y : 196
+INIT ORIENT: -1 | INSERTING TOP...
+X : 81
+Y : 196
+INIT ORIENT: -1 | INSERTING TOP...
+X : 82
+Y : 69
+INIT ORIENT: -1 | INSERTING TOP...
+X : 83
+Y : 106
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 84
+Y : 30
+INIT ORIENT: -1 | INSERTING TOP...
+X : 84
+Y : 90
+INIT ORIENT: -1 | INSERTING TOP...
+X : 84
+Y : 179
+INIT ORIENT: -1 | INSERTING TOP...
+X : 86
+Y : 183
+INIT ORIENT: -1 | INSERTING TOP...
+X : 88
+Y : 128
+INIT ORIENT: -1 | INSERTING TOP...
+X : 88
+Y : 179
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 89
+Y : 65
+INIT ORIENT: -1 | INSERTING TOP...
+X : 91
+Y : 143
+INIT ORIENT: -1 | INSERTING TOP...
+X : 92
+Y : 117
+INIT ORIENT: -1 | INSERTING TOP...
+X : 92
+Y : 186
+INIT ORIENT: -1 | INSERTING TOP...
+X : 94
+Y : 133
+INIT ORIENT: -1 | INSERTING TOP...
+X : 95
+Y : 124
+INIT ORIENT: -1 | INSERTING TOP...
+X : 95
+Y : 190
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 99
+Y : 22
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 99
+Y : 52
+INIT ORIENT: -1 | INSERTING TOP...
+X : 99
+Y : 90
+INIT ORIENT: -1 | INSERTING TOP...
+X : 100
+Y : 193
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 101
+Y : 6
+INIT ORIENT: -1 | INSERTING TOP...
+X : 102
+Y : 97
+INIT ORIENT: -1 | INSERTING TOP...
+X : 104
+Y : 121
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 105
+Y : 78
+INIT ORIENT: -1 | INSERTING TOP...
+X : 105
+Y : 136
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 106
+Y : 2
+INIT ORIENT: -1 | INSERTING TOP...
+X : 107
+Y : 136
+INIT ORIENT: -1 | INSERTING TOP...
+X : 107
+Y : 197
+INIT ORIENT: -1 | INSERTING TOP...
+X : 113
+Y : 98
+INIT ORIENT: -1 | INSERTING TOP...
+X : 114
+Y : 124
+INIT ORIENT: -1 | INSERTING TOP...
+X : 115
+Y : 108
+INIT ORIENT: -1 | INSERTING TOP...
+X : 115
+Y : 177
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 117
+Y : 31
+INIT ORIENT: -1 | INSERTING TOP...
+X : 117
+Y : 169
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 119
+Y : 21
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 121
+Y : 74
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 123
+Y : 62
+INIT ORIENT: -1 | INSERTING TOP...
+X : 123
+Y : 196
+INIT ORIENT: -1 | INSERTING TOP...
+X : 124
+Y : 198
+INIT ORIENT: -1 | INSERTING TOP...
+X : 125
+Y : 105
+INIT ORIENT: -1 | INSERTING TOP...
+X : 125
+Y : 172
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 126
+Y : 13
+INIT ORIENT: -1 | INSERTING TOP...
+X : 126
+Y : 163
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 127
+Y : 84
+INIT ORIENT: -1 | INSERTING TOP...
+X : 127
+Y : 109
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 129
+Y : 40
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 129
+Y : 46
+INIT ORIENT: -1 | INSERTING TOP...
+X : 129
+Y : 128
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 130
+Y : 61
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 130
+Y : 81
+INIT ORIENT: -1 | INSERTING TOP...
+X : 130
+Y : 182
+INIT ORIENT: -1 | INSERTING TOP...
+X : 131
+Y : 173
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 135
+Y : 67
+INIT ORIENT: -1 | INSERTING TOP...
+X : 135
+Y : 193
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 136
+Y : 19
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 136
+Y : 59
+INIT ORIENT: -1 | INSERTING TOP...
+X : 136
+Y : 120
+INIT ORIENT: -1 | INSERTING TOP...
+X : 136
+Y : 172
+INIT ORIENT: -1 | INSERTING TOP...
+X : 137
+Y : 184
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 138
+Y : 13
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 139
+Y : 94
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 139
+Y : 105
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 140
+Y : 84
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 142
+Y : 60
+INIT ORIENT: -1 | INSERTING TOP...
+X : 142
+Y : 176
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 143
+Y : 99
+INIT ORIENT: -1 | INSERTING TOP...
+X : 143
+Y : 124
+INIT ORIENT: -1 | INSERTING TOP...
+X : 145
+Y : 182
+INIT ORIENT: -1 | INSERTING TOP...
+X : 149
+Y : 140
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 150
+Y : 41
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 150
+Y : 43
+INIT ORIENT: -1 | INSERTING TOP...
+X : 150
+Y : 127
+INIT ORIENT: -1 | INSERTING TOP...
+X : 150
+Y : 179
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 151
+Y : 32
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 153
+Y : 97
+INIT ORIENT: -1 | INSERTING TOP...
+X : 154
+Y : 161
+INIT ORIENT: -1 | INSERTING TOP...
+X : 155
+Y : 121
+INIT ORIENT: -1 | INSERTING TOP...
+X : 155
+Y : 132
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 156
+Y : 45
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 156
+Y : 52
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 163
+Y : 43
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 163
+Y : 60
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 164
+Y : 34
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 164
+Y : 34
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 165
+Y : 27
+INIT ORIENT: -1 | INSERTING TOP...
+X : 165
+Y : 186
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 167
+Y : 14
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 167
+Y : 21
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 167
+Y : 69
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 168
+Y : 11
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 168
+Y : 70
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 168
+Y : 76
+INIT ORIENT: -1 | INSERTING TOP...
+X : 168
+Y : 146
+INIT ORIENT: -1 | INSERTING TOP...
+X : 169
+Y : 179
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 170
+Y : 62
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 170
+Y : 115
+INIT ORIENT: -1 | INSERTING TOP...
+X : 170
+Y : 195
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 171
+Y : 97
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 172
+Y : 92
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 172
+Y : 113
+INIT ORIENT: -1 | INSERTING TOP...
+X : 172
+Y : 148
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 173
+Y : 29
+INIT ORIENT: -1 | INSERTING TOP...
+X : 173
+Y : 159
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 176
+Y : 73
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 178
+Y : 34
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 178
+Y : 76
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 180
+Y : 91
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 181
+Y : 9
+INIT ORIENT: -1 | INSERTING TOP...
+X : 181
+Y : 199
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 183
+Y : 70
+INIT ORIENT: -1 | INSERTING TOP...
+X : 184
+Y : 188
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 185
+Y : 25
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 186
+Y : 26
+INIT ORIENT: -1 | INSERTING TOP...
+X : 186
+Y : 154
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 187
+Y : 142
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 190
+Y : 44
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 190
+Y : 98
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 190
+Y : 124
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 193
+Y : 35
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 195
+Y : 58
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 196
+Y : 99
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 196
+Y : 117
+INIT ORIENT: 1 | INSERTING BOTTOM...
+X : 199
+Y : 19
+Init First Subset of size 119
+1
+X : 1
+Y : 67
+
+2
+X : 2
+Y : 129
+
+3
+X : 2
+Y : 144
+
+4
+X : 4
+Y : 155
+
+5
+X : 4
+Y : 176
+
+6
+X : 4
+Y : 194
+
+7
+X : 5
+Y : 193
+
+8
+X : 7
+Y : 75
+
+9
+X : 8
+Y : 87
+
+10
+X : 9
+Y : 59
+
+11
+X : 10
+Y : 111
+
+12
+X : 10
+Y : 136
+
+13
+X : 11
+Y : 139
+
+14
+X : 11
+Y : 143
+
+15
+X : 11
+Y : 148
+
+16
+X : 12
+Y : 87
+
+17
+X : 12
+Y : 139
+
+18
+X : 13
+Y : 104
+
+19
+X : 16
+Y : 108
+
+20
+X : 18
+Y : 104
+
+21
+X : 18
+Y : 179
+
+22
+X : 19
+Y : 44
+
+23
+X : 19
+Y : 103
+
+24
+X : 21
+Y : 49
+
+25
+X : 21
+Y : 184
+
+26
+X : 22
+Y : 140
+
+27
+X : 24
+Y : 62
+
+28
+X : 24
+Y : 120
+
+29
+X : 26
+Y : 44
+
+30
+X : 26
+Y : 140
+
+31
+X : 27
+Y : 162
+
+32
+X : 28
+Y : 37
+
+33
+X : 28
+Y : 105
+
+34
+X : 28
+Y : 164
+
+35
+X : 29
+Y : 132
+
+36
+X : 29
+Y : 167
+
+37
+X : 37
+Y : 124
+
+38
+X : 41
+Y : 86
+
+39
+X : 42
+Y : 40
+
+40
+X : 50
+Y : 72
+
+41
+X : 51
+Y : 46
+
+42
+X : 55
+Y : 50
+
+43
+X : 55
+Y : 121
+
+44
+X : 56
+Y : 167
+
+45
+X : 56
+Y : 187
+
+46
+X : 56
+Y : 193
+
+47
+X : 57
+Y : 113
+
+48
+X : 58
+Y : 82
+
+49
+X : 58
+Y : 184
+
+50
+X : 59
+Y : 90
+
+51
+X : 59
+Y : 126
+
+52
+X : 60
+Y : 132
+
+53
+X : 64
+Y : 142
+
+54
+X : 65
+Y : 122
+
+55
+X : 66
+Y : 126
+
+56
+X : 67
+Y : 140
+
+57
+X : 71
+Y : 68
+
+58
+X : 71
+Y : 128
+
+59
+X : 73
+Y : 156
+
+60
+X : 75
+Y : 81
+
+61
+X : 80
+Y : 101
+
+62
+X : 81
+Y : 196
+
+63
+X : 81
+Y : 196
+
+64
+X : 82
+Y : 69
+
+65
+X : 83
+Y : 106
+
+66
+X : 84
+Y : 90
+
+67
+X : 84
+Y : 179
+
+68
+X : 86
+Y : 183
+
+69
+X : 88
+Y : 128
+
+70
+X : 88
+Y : 179
+
+71
+X : 91
+Y : 143
+
+72
+X : 92
+Y : 117
+
+73
+X : 92
+Y : 186
+
+74
+X : 94
+Y : 133
+
+75
+X : 95
+Y : 124
+
+76
+X : 95
+Y : 190
+
+77
+X : 99
+Y : 90
+
+78
+X : 100
+Y : 193
+
+79
+X : 102
+Y : 97
+
+80
+X : 104
+Y : 121
+
+81
+X : 105
+Y : 136
+
+82
+X : 107
+Y : 136
+
+83
+X : 107
+Y : 197
+
+84
+X : 113
+Y : 98
+
+85
+X : 114
+Y : 124
+
+86
+X : 115
+Y : 108
+
+87
+X : 115
+Y : 177
+
+88
+X : 117
+Y : 169
+
+89
+X : 123
+Y : 196
+
+90
+X : 124
+Y : 198
+
+91
+X : 125
+Y : 105
+
+92
+X : 125
+Y : 172
+
+93
+X : 126
+Y : 163
+
+94
+X : 127
+Y : 109
+
+95
+X : 129
+Y : 128
+
+96
+X : 130
+Y : 182
+
+97
+X : 131
+Y : 173
+
+98
+X : 135
+Y : 193
+
+99
+X : 136
+Y : 120
+
+100
+X : 136
+Y : 172
+
+101
+X : 137
+Y : 184
+
+102
+X : 142
+Y : 176
+
+103
+X : 143
+Y : 124
+
+104
+X : 145
+Y : 182
+
+105
+X : 149
+Y : 140
+
+106
+X : 150
+Y : 127
+
+107
+X : 150
+Y : 179
+
+108
+X : 154
+Y : 161
+
+109
+X : 155
+Y : 121
+
+110
+X : 155
+Y : 132
+
+111
+X : 165
+Y : 186
+
+112
+X : 168
+Y : 146
+
+113
+X : 169
+Y : 179
+
+114
+X : 170
+Y : 195
+
+115
+X : 172
+Y : 148
+
+116
+X : 173
+Y : 159
+
+117
+X : 181
+Y : 199
+
+118
+X : 184
+Y : 188
+
+119
+X : 186
+Y : 154
+Init Second Subset of size 79
+
+1
+X : 24
+Y : 19
+
+2
+X : 28
+Y : 18
+
+3
+X : 28
+Y : 22
+
+4
+X : 36
+Y : 0
+
+5
+X : 37
+Y : 29
+
+6
+X : 40
+Y : 6
+
+7
+X : 42
+Y : 11
+
+8
+X : 45
+Y : 18
+
+9
+X : 51
+Y : 3
+
+10
+X : 58
+Y : 22
+
+11
+X : 68
+Y : 13
+
+12
+X : 68
+Y : 42
+
+13
+X : 69
+Y : 22
+
+14
+X : 84
+Y : 30
+
+15
+X : 89
+Y : 65
+
+16
+X : 99
+Y : 22
+
+17
+X : 99
+Y : 52
+
+18
+X : 101
+Y : 6
+
+19
+X : 105
+Y : 78
+
+20
+X : 106
+Y : 2
+
+21
+X : 117
+Y : 31
+
+22
+X : 119
+Y : 21
+
+23
+X : 121
+Y : 74
+
+24
+X : 123
+Y : 62
+
+25
+X : 126
+Y : 13
+
+26
+X : 127
+Y : 84
+
+27
+X : 129
+Y : 40
+
+28
+X : 129
+Y : 46
+
+29
+X : 130
+Y : 61
+
+30
+X : 130
+Y : 81
+
+31
+X : 135
+Y : 67
+
+32
+X : 136
+Y : 19
+
+33
+X : 136
+Y : 59
+
+34
+X : 138
+Y : 13
+
+35
+X : 139
+Y : 94
+
+36
+X : 139
+Y : 105
+
+37
+X : 140
+Y : 84
+
+38
+X : 142
+Y : 60
+
+39
+X : 143
+Y : 99
+
+40
+X : 150
+Y : 41
+
+41
+X : 150
+Y : 43
+
+42
+X : 151
+Y : 32
+
+43
+X : 153
+Y : 97
+
+44
+X : 156
+Y : 45
+
+45
+X : 156
+Y : 52
+
+46
+X : 163
+Y : 43
+
+47
+X : 163
+Y : 60
+
+48
+X : 164
+Y : 34
+
+49
+X : 164
+Y : 34
+
+50
+X : 165
+Y : 27
+
+51
+X : 167
+Y : 14
+
+52
+X : 167
+Y : 21
+
+53
+X : 167
+Y : 69
+
+54
+X : 168
+Y : 11
+
+55
+X : 168
+Y : 70
+
+56
+X : 168
+Y : 76
+
+57
+X : 170
+Y : 62
+
+58
+X : 170
+Y : 115
+
+59
+X : 171
+Y : 97
+
+60
+X : 172
+Y : 92
+
+61
+X : 172
+Y : 113
+
+62
+X : 173
+Y : 29
+
+63
+X : 176
+Y : 73
+
+64
+X : 178
+Y : 34
+
+65
+X : 178
+Y : 76
+
+66
+X : 180
+Y : 91
+
+67
+X : 181
+Y : 9
+
+68
+X : 183
+Y : 70
+
+69
+X : 185
+Y : 25
+
+70
+X : 186
+Y : 26
+
+71
+X : 187
+Y : 142
+
+72
+X : 190
+Y : 44
+
+73
+X : 190
+Y : 98
+
+74
+X : 190
+Y : 124
+
+75
+X : 193
+Y : 35
+
+76
+X : 195
+Y : 58
+
+77
+X : 196
+Y : 99
+
+78
+X : 196
+Y : 117
+
+79
+X : 199
+Y : 19
+Recursive Entry Src size 119
+1
+X : 1
+Y : 67
+
+2
+X : 2
+Y : 129
+
+3
+X : 2
+Y : 144
+
+4
+X : 4
+Y : 155
+
+5
+X : 4
+Y : 176
+
+6
+X : 4
+Y : 194
+
+7
+X : 5
+Y : 193
+
+8
+X : 7
+Y : 75
+
+9
+X : 8
+Y : 87
+
+10
+X : 9
+Y : 59
+
+11
+X : 10
+Y : 111
+
+12
+X : 10
+Y : 136
+
+13
+X : 11
+Y : 139
+
+14
+X : 11
+Y : 143
+
+15
+X : 11
+Y : 148
+
+16
+X : 12
+Y : 87
+
+17
+X : 12
+Y : 139
+
+18
+X : 13
+Y : 104
+
+19
+X : 16
+Y : 108
+
+20
+X : 18
+Y : 104
+
+21
+X : 18
+Y : 179
+
+22
+X : 19
+Y : 44
+
+23
+X : 19
+Y : 103
+
+24
+X : 21
+Y : 49
+
+25
+X : 21
+Y : 184
+
+26
+X : 22
+Y : 140
+
+27
+X : 24
+Y : 62
+
+28
+X : 24
+Y : 120
+
+29
+X : 26
+Y : 44
+
+30
+X : 26
+Y : 140
+
+31
+X : 27
+Y : 162
+
+32
+X : 28
+Y : 37
+
+33
+X : 28
+Y : 105
+
+34
+X : 28
+Y : 164
+
+35
+X : 29
+Y : 132
+
+36
+X : 29
+Y : 167
+
+37
+X : 37
+Y : 124
+
+38
+X : 41
+Y : 86
+
+39
+X : 42
+Y : 40
+
+40
+X : 50
+Y : 72
+
+41
+X : 51
+Y : 46
+
+42
+X : 55
+Y : 50
+
+43
+X : 55
+Y : 121
+
+44
+X : 56
+Y : 167
+
+45
+X : 56
+Y : 187
+
+46
+X : 56
+Y : 193
+
+47
+X : 57
+Y : 113
+
+48
+X : 58
+Y : 82
+
+49
+X : 58
+Y : 184
+
+50
+X : 59
+Y : 90
+
+51
+X : 59
+Y : 126
+
+52
+X : 60
+Y : 132
+
+53
+X : 64
+Y : 142
+
+54
+X : 65
+Y : 122
+
+55
+X : 66
+Y : 126
+
+56
+X : 67
+Y : 140
+
+57
+X : 71
+Y : 68
+
+58
+X : 71
+Y : 128
+
+59
+X : 73
+Y : 156
+
+60
+X : 75
+Y : 81
+
+61
+X : 80
+Y : 101
+
+62
+X : 81
+Y : 196
+
+63
+X : 81
+Y : 196
+
+64
+X : 82
+Y : 69
+
+65
+X : 83
+Y : 106
+
+66
+X : 84
+Y : 90
+
+67
+X : 84
+Y : 179
+
+68
+X : 86
+Y : 183
+
+69
+X : 88
+Y : 128
+
+70
+X : 88
+Y : 179
+
+71
+X : 91
+Y : 143
+
+72
+X : 92
+Y : 117
+
+73
+X : 92
+Y : 186
+
+74
+X : 94
+Y : 133
+
+75
+X : 95
+Y : 124
+
+76
+X : 95
+Y : 190
+
+77
+X : 99
+Y : 90
+
+78
+X : 100
+Y : 193
+
+79
+X : 102
+Y : 97
+
+80
+X : 104
+Y : 121
+
+81
+X : 105
+Y : 136
+
+82
+X : 107
+Y : 136
+
+83
+X : 107
+Y : 197
+
+84
+X : 113
+Y : 98
+
+85
+X : 114
+Y : 124
+
+86
+X : 115
+Y : 108
+
+87
+X : 115
+Y : 177
+
+88
+X : 117
+Y : 169
+
+89
+X : 123
+Y : 196
+
+90
+X : 124
+Y : 198
+
+91
+X : 125
+Y : 105
+
+92
+X : 125
+Y : 172
+
+93
+X : 126
+Y : 163
+
+94
+X : 127
+Y : 109
+
+95
+X : 129
+Y : 128
+
+96
+X : 130
+Y : 182
+
+97
+X : 131
+Y : 173
+
+98
+X : 135
+Y : 193
+
+99
+X : 136
+Y : 120
+
+100
+X : 136
+Y : 172
+
+101
+X : 137
+Y : 184
+
+102
+X : 142
+Y : 176
+
+103
+X : 143
+Y : 124
+
+104
+X : 145
+Y : 182
+
+105
+X : 149
+Y : 140
+
+106
+X : 150
+Y : 127
+
+107
+X : 150
+Y : 179
+
+108
+X : 154
+Y : 161
+
+109
+X : 155
+Y : 121
+
+110
+X : 155
+Y : 132
+
+111
+X : 165
+Y : 186
+
+112
+X : 168
+Y : 146
+
+113
+X : 169
+Y : 179
+
+114
+X : 170
+Y : 195
+
+115
+X : 172
+Y : 148
+
+116
+X : 173
+Y : 159
+
+117
+X : 181
+Y : 199
+
+118
+X : 184
+Y : 188
+
+119
+X : 186
+Y : 154
+LEFTMOST POINT
+X : 1
+Y : 5
+RIGHTMOST POINT
+X : 199
+Y : 154
+FARTHEST POINT >> Entering Hull...
+X : 4
+Y : 194
+IN TRIANGLE 0
+INSERTING TOP...
+X : 1
+Y : 67
+IN TRIANGLE 0
+INSERTING TOP...
+X : 2
+Y : 129
+IN TRIANGLE 0
+INSERTING TOP...
+X : 2
+Y : 144
+IN TRIANGLE 1
+Skipping point....
+X : 4
+Y : 155
+IN TRIANGLE 1
+Skipping point....
+X : 4
+Y : 176
+IN TRIANGLE 1
+Skipping point....
+X : 5
+Y : 193
+IN TRIANGLE 1
+Skipping point....
+X : 7
+Y : 75
+IN TRIANGLE 1
+Skipping point....
+X : 8
+Y : 87
+IN TRIANGLE 1
+Skipping point....
+X : 9
+Y : 59
+IN TRIANGLE 1
+Skipping point....
+X : 10
+Y : 111
+IN TRIANGLE 1
+Skipping point....
+X : 10
+Y : 136
+IN TRIANGLE 1
+Skipping point....
+X : 11
+Y : 139
+IN TRIANGLE 1
+Skipping point....
+X : 11
+Y : 143
+IN TRIANGLE 1
+Skipping point....
+X : 11
+Y : 148
+IN TRIANGLE 1
+Skipping point....
+X : 12
+Y : 87
+IN TRIANGLE 1
+Skipping point....
+X : 12
+Y : 139
+IN TRIANGLE 1
+Skipping point....
+X : 13
+Y : 104
+IN TRIANGLE 1
+Skipping point....
+X : 16
+Y : 108
+IN TRIANGLE 1
+Skipping point....
+X : 18
+Y : 104
+IN TRIANGLE 1
+Skipping point....
+X : 18
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 19
+Y : 44
+IN TRIANGLE 1
+Skipping point....
+X : 19
+Y : 103
+IN TRIANGLE 1
+Skipping point....
+X : 21
+Y : 49
+IN TRIANGLE 1
+Skipping point....
+X : 21
+Y : 184
+IN TRIANGLE 1
+Skipping point....
+X : 22
+Y : 140
+IN TRIANGLE 1
+Skipping point....
+X : 24
+Y : 62
+IN TRIANGLE 1
+Skipping point....
+X : 24
+Y : 120
+IN TRIANGLE 1
+Skipping point....
+X : 26
+Y : 44
+IN TRIANGLE 1
+Skipping point....
+X : 26
+Y : 140
+IN TRIANGLE 1
+Skipping point....
+X : 27
+Y : 162
+IN TRIANGLE 1
+Skipping point....
+X : 28
+Y : 37
+IN TRIANGLE 1
+Skipping point....
+X : 28
+Y : 105
+IN TRIANGLE 1
+Skipping point....
+X : 28
+Y : 164
+IN TRIANGLE 1
+Skipping point....
+X : 29
+Y : 132
+IN TRIANGLE 1
+Skipping point....
+X : 29
+Y : 167
+IN TRIANGLE 1
+Skipping point....
+X : 37
+Y : 124
+IN TRIANGLE 1
+Skipping point....
+X : 41
+Y : 86
+IN TRIANGLE 1
+Skipping point....
+X : 42
+Y : 40
+IN TRIANGLE 1
+Skipping point....
+X : 50
+Y : 72
+IN TRIANGLE 1
+Skipping point....
+X : 51
+Y : 46
+IN TRIANGLE 1
+Skipping point....
+X : 55
+Y : 50
+IN TRIANGLE 1
+Skipping point....
+X : 55
+Y : 121
+IN TRIANGLE 1
+Skipping point....
+X : 56
+Y : 167
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 56
+Y : 187
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 56
+Y : 193
+IN TRIANGLE 1
+Skipping point....
+X : 57
+Y : 113
+IN TRIANGLE 1
+Skipping point....
+X : 58
+Y : 82
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 58
+Y : 184
+IN TRIANGLE 1
+Skipping point....
+X : 59
+Y : 90
+IN TRIANGLE 1
+Skipping point....
+X : 59
+Y : 126
+IN TRIANGLE 1
+Skipping point....
+X : 60
+Y : 132
+IN TRIANGLE 1
+Skipping point....
+X : 64
+Y : 142
+IN TRIANGLE 1
+Skipping point....
+X : 65
+Y : 122
+IN TRIANGLE 1
+Skipping point....
+X : 66
+Y : 126
+IN TRIANGLE 1
+Skipping point....
+X : 67
+Y : 140
+IN TRIANGLE 1
+Skipping point....
+X : 71
+Y : 68
+IN TRIANGLE 1
+Skipping point....
+X : 71
+Y : 128
+IN TRIANGLE 1
+Skipping point....
+X : 73
+Y : 156
+IN TRIANGLE 1
+Skipping point....
+X : 75
+Y : 81
+IN TRIANGLE 1
+Skipping point....
+X : 80
+Y : 101
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 81
+Y : 196
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 81
+Y : 196
+IN TRIANGLE 1
+Skipping point....
+X : 82
+Y : 69
+IN TRIANGLE 1
+Skipping point....
+X : 83
+Y : 106
+IN TRIANGLE 1
+Skipping point....
+X : 84
+Y : 90
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 84
+Y : 179
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 86
+Y : 183
+IN TRIANGLE 1
+Skipping point....
+X : 88
+Y : 128
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 88
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 91
+Y : 143
+IN TRIANGLE 1
+Skipping point....
+X : 92
+Y : 117
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 92
+Y : 186
+IN TRIANGLE 1
+Skipping point....
+X : 94
+Y : 133
+IN TRIANGLE 1
+Skipping point....
+X : 95
+Y : 124
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 95
+Y : 190
+IN TRIANGLE 1
+Skipping point....
+X : 99
+Y : 90
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 100
+Y : 193
+IN TRIANGLE 1
+Skipping point....
+X : 102
+Y : 97
+IN TRIANGLE 1
+Skipping point....
+X : 104
+Y : 121
+IN TRIANGLE 1
+Skipping point....
+X : 105
+Y : 136
+IN TRIANGLE 1
+Skipping point....
+X : 107
+Y : 136
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 107
+Y : 197
+IN TRIANGLE 1
+Skipping point....
+X : 113
+Y : 98
+IN TRIANGLE 1
+Skipping point....
+X : 114
+Y : 124
+IN TRIANGLE 1
+Skipping point....
+X : 115
+Y : 108
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 115
+Y : 177
+IN TRIANGLE 1
+Skipping point....
+X : 117
+Y : 169
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 123
+Y : 196
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 124
+Y : 198
+IN TRIANGLE 1
+Skipping point....
+X : 125
+Y : 105
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 125
+Y : 172
+IN TRIANGLE 1
+Skipping point....
+X : 126
+Y : 163
+IN TRIANGLE 1
+Skipping point....
+X : 127
+Y : 109
+IN TRIANGLE 1
+Skipping point....
+X : 129
+Y : 128
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 130
+Y : 182
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 131
+Y : 173
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 135
+Y : 193
+IN TRIANGLE 1
+Skipping point....
+X : 136
+Y : 120
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 136
+Y : 172
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 137
+Y : 184
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 142
+Y : 176
+IN TRIANGLE 1
+Skipping point....
+X : 143
+Y : 124
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 145
+Y : 182
+IN TRIANGLE 1
+Skipping point....
+X : 149
+Y : 140
+IN TRIANGLE 1
+Skipping point....
+X : 150
+Y : 127
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 150
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 154
+Y : 161
+IN TRIANGLE 1
+Skipping point....
+X : 155
+Y : 121
+IN TRIANGLE 1
+Skipping point....
+X : 155
+Y : 132
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 165
+Y : 186
+IN TRIANGLE 1
+Skipping point....
+X : 168
+Y : 146
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 169
+Y : 179
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 170
+Y : 195
+IN TRIANGLE 1
+Skipping point....
+X : 172
+Y : 148
+IN TRIANGLE 1
+Skipping point....
+X : 173
+Y : 159
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 181
+Y : 199
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 184
+Y : 188
+IN TRIANGLE 1
+Skipping point....
+X : 186
+Y : 154
+First Subset of size 3
+
+1
+X : 1
+Y : 67
+
+2
+X : 2
+Y : 129
+
+3
+X : 2
+Y : 144
+Second Subset of size 29
+
+1
+X : 56
+Y : 187
+
+2
+X : 56
+Y : 193
+
+3
+X : 58
+Y : 184
+
+4
+X : 81
+Y : 196
+
+5
+X : 81
+Y : 196
+
+6
+X : 84
+Y : 179
+
+7
+X : 86
+Y : 183
+
+8
+X : 88
+Y : 179
+
+9
+X : 92
+Y : 186
+
+10
+X : 95
+Y : 190
+
+11
+X : 100
+Y : 193
+
+12
+X : 107
+Y : 197
+
+13
+X : 115
+Y : 177
+
+14
+X : 123
+Y : 196
+
+15
+X : 124
+Y : 198
+
+16
+X : 125
+Y : 172
+
+17
+X : 130
+Y : 182
+
+18
+X : 131
+Y : 173
+
+19
+X : 135
+Y : 193
+
+20
+X : 136
+Y : 172
+
+21
+X : 137
+Y : 184
+
+22
+X : 142
+Y : 176
+
+23
+X : 145
+Y : 182
+
+24
+X : 150
+Y : 179
+
+25
+X : 165
+Y : 186
+
+26
+X : 169
+Y : 179
+
+27
+X : 170
+Y : 195
+
+28
+X : 181
+Y : 199
+
+29
+X : 184
+Y : 188
+Before Recursion Hull of Size 3
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+Recursive Entry Src size 3
+1
+X : 1
+Y : 67
+
+2
+X : 2
+Y : 129
+
+3
+X : 2
+Y : 144
+LEFTMOST POINT
+X : 1
+Y : 5
+RIGHTMOST POINT
+X : 4
+Y : 194
+FARTHEST POINT >> Entering Hull...
+X : 2
+Y : 144
+IN TRIANGLE 0
+INSERTING TOP...
+X : 1
+Y : 67
+IN TRIANGLE 1
+Skipping point....
+X : 2
+Y : 129
+First Subset of size 1
+
+1
+X : 1
+Y : 67
+Second Subset of size 0
+Before Recursion Hull of Size 4
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+Recursive Entry Src size 1
+1
+X : 1
+Y : 67
+LEFTMOST POINT
+X : 1
+Y : 5
+RIGHTMOST POINT
+X : 2
+Y : 144
+FARTHEST POINT >> Entering Hull...
+X : 1
+Y : 67
+First Subset of size 0
+Second Subset of size 0
+Before Recursion Hull of Size 5
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+Returning From Recursion since no points exist
+Returning From Recursion since no points exist
+After Recursion Hull of Size 5
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+Returning From Recursion since no points exist
+After Recursion Hull of Size 5
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+Recursive Entry Src size 29
+1
+X : 56
+Y : 187
+
+2
+X : 56
+Y : 193
+
+3
+X : 58
+Y : 184
+
+4
+X : 81
+Y : 196
+
+5
+X : 81
+Y : 196
+
+6
+X : 84
+Y : 179
+
+7
+X : 86
+Y : 183
+
+8
+X : 88
+Y : 179
+
+9
+X : 92
+Y : 186
+
+10
+X : 95
+Y : 190
+
+11
+X : 100
+Y : 193
+
+12
+X : 107
+Y : 197
+
+13
+X : 115
+Y : 177
+
+14
+X : 123
+Y : 196
+
+15
+X : 124
+Y : 198
+
+16
+X : 125
+Y : 172
+
+17
+X : 130
+Y : 182
+
+18
+X : 131
+Y : 173
+
+19
+X : 135
+Y : 193
+
+20
+X : 136
+Y : 172
+
+21
+X : 137
+Y : 184
+
+22
+X : 142
+Y : 176
+
+23
+X : 145
+Y : 182
+
+24
+X : 150
+Y : 179
+
+25
+X : 165
+Y : 186
+
+26
+X : 169
+Y : 179
+
+27
+X : 170
+Y : 195
+
+28
+X : 181
+Y : 199
+
+29
+X : 184
+Y : 188
+LEFTMOST POINT
+X : 4
+Y : 194
+RIGHTMOST POINT
+X : 199
+Y : 154
+FARTHEST POINT >> Entering Hull...
+X : 181
+Y : 199
+IN TRIANGLE 1
+Skipping point....
+X : 56
+Y : 187
+IN TRIANGLE 1
+Skipping point....
+X : 56
+Y : 193
+IN TRIANGLE 1
+Skipping point....
+X : 58
+Y : 184
+IN TRIANGLE 1
+Skipping point....
+X : 81
+Y : 196
+IN TRIANGLE 1
+Skipping point....
+X : 81
+Y : 196
+IN TRIANGLE 1
+Skipping point....
+X : 84
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 86
+Y : 183
+IN TRIANGLE 1
+Skipping point....
+X : 88
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 92
+Y : 186
+IN TRIANGLE 1
+Skipping point....
+X : 95
+Y : 190
+IN TRIANGLE 1
+Skipping point....
+X : 100
+Y : 193
+IN TRIANGLE 0
+INSERTING TOP...
+X : 107
+Y : 197
+IN TRIANGLE 1
+Skipping point....
+X : 115
+Y : 177
+IN TRIANGLE 1
+Skipping point....
+X : 123
+Y : 196
+IN TRIANGLE 0
+INSERTING TOP...
+X : 124
+Y : 198
+IN TRIANGLE 1
+Skipping point....
+X : 125
+Y : 172
+IN TRIANGLE 1
+Skipping point....
+X : 130
+Y : 182
+IN TRIANGLE 1
+Skipping point....
+X : 131
+Y : 173
+IN TRIANGLE 1
+Skipping point....
+X : 135
+Y : 193
+IN TRIANGLE 1
+Skipping point....
+X : 136
+Y : 172
+IN TRIANGLE 1
+Skipping point....
+X : 137
+Y : 184
+IN TRIANGLE 1
+Skipping point....
+X : 142
+Y : 176
+IN TRIANGLE 1
+Skipping point....
+X : 145
+Y : 182
+IN TRIANGLE 1
+Skipping point....
+X : 150
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 165
+Y : 186
+IN TRIANGLE 1
+Skipping point....
+X : 169
+Y : 179
+IN TRIANGLE 1
+Skipping point....
+X : 170
+Y : 195
+IN TRIANGLE 1
+Skipping point....
+X : 184
+Y : 188
+First Subset of size 2
+
+1
+X : 107
+Y : 197
+
+2
+X : 124
+Y : 198
+Second Subset of size 0
+Before Recursion Hull of Size 6
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+Recursive Entry Src size 2
+1
+X : 107
+Y : 197
+
+2
+X : 124
+Y : 198
+LEFTMOST POINT
+X : 4
+Y : 194
+RIGHTMOST POINT
+X : 181
+Y : 199
+FARTHEST POINT >> Entering Hull...
+X : 124
+Y : 198
+IN TRIANGLE 1
+Skipping point....
+X : 107
+Y : 197
+First Subset of size 0
+Second Subset of size 0
+Before Recursion Hull of Size 7
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+Returning From Recursion since no points exist
+Returning From Recursion since no points exist
+After Recursion Hull of Size 7
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+Returning From Recursion since no points exist
+After Recursion Hull of Size 7
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+After Recursion Hull of Size 7
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+Recursive Entry Src size 79
+1
+X : 24
+Y : 19
+
+2
+X : 28
+Y : 18
+
+3
+X : 28
+Y : 22
+
+4
+X : 36
+Y : 0
+
+5
+X : 37
+Y : 29
+
+6
+X : 40
+Y : 6
+
+7
+X : 42
+Y : 11
+
+8
+X : 45
+Y : 18
+
+9
+X : 51
+Y : 3
+
+10
+X : 58
+Y : 22
+
+11
+X : 68
+Y : 13
+
+12
+X : 68
+Y : 42
+
+13
+X : 69
+Y : 22
+
+14
+X : 84
+Y : 30
+
+15
+X : 89
+Y : 65
+
+16
+X : 99
+Y : 22
+
+17
+X : 99
+Y : 52
+
+18
+X : 101
+Y : 6
+
+19
+X : 105
+Y : 78
+
+20
+X : 106
+Y : 2
+
+21
+X : 117
+Y : 31
+
+22
+X : 119
+Y : 21
+
+23
+X : 121
+Y : 74
+
+24
+X : 123
+Y : 62
+
+25
+X : 126
+Y : 13
+
+26
+X : 127
+Y : 84
+
+27
+X : 129
+Y : 40
+
+28
+X : 129
+Y : 46
+
+29
+X : 130
+Y : 61
+
+30
+X : 130
+Y : 81
+
+31
+X : 135
+Y : 67
+
+32
+X : 136
+Y : 19
+
+33
+X : 136
+Y : 59
+
+34
+X : 138
+Y : 13
+
+35
+X : 139
+Y : 94
+
+36
+X : 139
+Y : 105
+
+37
+X : 140
+Y : 84
+
+38
+X : 142
+Y : 60
+
+39
+X : 143
+Y : 99
+
+40
+X : 150
+Y : 41
+
+41
+X : 150
+Y : 43
+
+42
+X : 151
+Y : 32
+
+43
+X : 153
+Y : 97
+
+44
+X : 156
+Y : 45
+
+45
+X : 156
+Y : 52
+
+46
+X : 163
+Y : 43
+
+47
+X : 163
+Y : 60
+
+48
+X : 164
+Y : 34
+
+49
+X : 164
+Y : 34
+
+50
+X : 165
+Y : 27
+
+51
+X : 167
+Y : 14
+
+52
+X : 167
+Y : 21
+
+53
+X : 167
+Y : 69
+
+54
+X : 168
+Y : 11
+
+55
+X : 168
+Y : 70
+
+56
+X : 168
+Y : 76
+
+57
+X : 170
+Y : 62
+
+58
+X : 170
+Y : 115
+
+59
+X : 171
+Y : 97
+
+60
+X : 172
+Y : 92
+
+61
+X : 172
+Y : 113
+
+62
+X : 173
+Y : 29
+
+63
+X : 176
+Y : 73
+
+64
+X : 178
+Y : 34
+
+65
+X : 178
+Y : 76
+
+66
+X : 180
+Y : 91
+
+67
+X : 181
+Y : 9
+
+68
+X : 183
+Y : 70
+
+69
+X : 185
+Y : 25
+
+70
+X : 186
+Y : 26
+
+71
+X : 187
+Y : 142
+
+72
+X : 190
+Y : 44
+
+73
+X : 190
+Y : 98
+
+74
+X : 190
+Y : 124
+
+75
+X : 193
+Y : 35
+
+76
+X : 195
+Y : 58
+
+77
+X : 196
+Y : 99
+
+78
+X : 196
+Y : 117
+
+79
+X : 199
+Y : 19
+LEFTMOST POINT
+X : 1
+Y : 5
+RIGHTMOST POINT
+X : 199
+Y : 154
+FARTHEST POINT >> Entering Hull...
+X : 199
+Y : 19
+IN TRIANGLE 1
+Skipping point....
+X : 24
+Y : 19
+IN TRIANGLE 1
+Skipping point....
+X : 28
+Y : 18
+IN TRIANGLE 1
+Skipping point....
+X : 28
+Y : 22
+IN TRIANGLE 0
+INSERTING TOP...
+X : 36
+Y : 0
+IN TRIANGLE 1
+Skipping point....
+X : 37
+Y : 29
+IN TRIANGLE 0
+INSERTING TOP...
+X : 40
+Y : 6
+IN TRIANGLE 1
+Skipping point....
+X : 42
+Y : 11
+IN TRIANGLE 1
+Skipping point....
+X : 45
+Y : 18
+IN TRIANGLE 0
+INSERTING TOP...
+X : 51
+Y : 3
+IN TRIANGLE 1
+Skipping point....
+X : 58
+Y : 22
+IN TRIANGLE 1
+Skipping point....
+X : 68
+Y : 13
+IN TRIANGLE 1
+Skipping point....
+X : 68
+Y : 42
+IN TRIANGLE 1
+Skipping point....
+X : 69
+Y : 22
+IN TRIANGLE 1
+Skipping point....
+X : 84
+Y : 30
+IN TRIANGLE 1
+Skipping point....
+X : 89
+Y : 65
+IN TRIANGLE 1
+Skipping point....
+X : 99
+Y : 22
+IN TRIANGLE 1
+Skipping point....
+X : 99
+Y : 52
+IN TRIANGLE 0
+INSERTING TOP...
+X : 101
+Y : 6
+IN TRIANGLE 1
+Skipping point....
+X : 105
+Y : 78
+IN TRIANGLE 0
+INSERTING TOP...
+X : 106
+Y : 2
+IN TRIANGLE 1
+Skipping point....
+X : 117
+Y : 31
+IN TRIANGLE 1
+Skipping point....
+X : 119
+Y : 21
+IN TRIANGLE 1
+Skipping point....
+X : 121
+Y : 74
+IN TRIANGLE 1
+Skipping point....
+X : 123
+Y : 62
+IN TRIANGLE 0
+INSERTING TOP...
+X : 126
+Y : 13
+IN TRIANGLE 1
+Skipping point....
+X : 127
+Y : 84
+IN TRIANGLE 1
+Skipping point....
+X : 129
+Y : 40
+IN TRIANGLE 1
+Skipping point....
+X : 129
+Y : 46
+IN TRIANGLE 1
+Skipping point....
+X : 130
+Y : 61
+IN TRIANGLE 1
+Skipping point....
+X : 130
+Y : 81
+IN TRIANGLE 1
+Skipping point....
+X : 135
+Y : 67
+IN TRIANGLE 1
+Skipping point....
+X : 136
+Y : 19
+IN TRIANGLE 1
+Skipping point....
+X : 136
+Y : 59
+IN TRIANGLE 0
+INSERTING TOP...
+X : 138
+Y : 13
+IN TRIANGLE 1
+Skipping point....
+X : 139
+Y : 94
+IN TRIANGLE 1
+Skipping point....
+X : 139
+Y : 105
+IN TRIANGLE 1
+Skipping point....
+X : 140
+Y : 84
+IN TRIANGLE 1
+Skipping point....
+X : 142
+Y : 60
+IN TRIANGLE 1
+Skipping point....
+X : 143
+Y : 99
+IN TRIANGLE 1
+Skipping point....
+X : 150
+Y : 41
+IN TRIANGLE 1
+Skipping point....
+X : 150
+Y : 43
+IN TRIANGLE 1
+Skipping point....
+X : 151
+Y : 32
+IN TRIANGLE 1
+Skipping point....
+X : 153
+Y : 97
+IN TRIANGLE 1
+Skipping point....
+X : 156
+Y : 45
+IN TRIANGLE 1
+Skipping point....
+X : 156
+Y : 52
+IN TRIANGLE 1
+Skipping point....
+X : 163
+Y : 43
+IN TRIANGLE 1
+Skipping point....
+X : 163
+Y : 60
+IN TRIANGLE 1
+Skipping point....
+X : 164
+Y : 34
+IN TRIANGLE 1
+Skipping point....
+X : 164
+Y : 34
+IN TRIANGLE 1
+Skipping point....
+X : 165
+Y : 27
+IN TRIANGLE 0
+INSERTING TOP...
+X : 167
+Y : 14
+IN TRIANGLE 1
+Skipping point....
+X : 167
+Y : 21
+IN TRIANGLE 1
+Skipping point....
+X : 167
+Y : 69
+IN TRIANGLE 0
+INSERTING TOP...
+X : 168
+Y : 11
+IN TRIANGLE 1
+Skipping point....
+X : 168
+Y : 70
+IN TRIANGLE 1
+Skipping point....
+X : 168
+Y : 76
+IN TRIANGLE 1
+Skipping point....
+X : 170
+Y : 62
+IN TRIANGLE 1
+Skipping point....
+X : 170
+Y : 115
+IN TRIANGLE 1
+Skipping point....
+X : 171
+Y : 97
+IN TRIANGLE 1
+Skipping point....
+X : 172
+Y : 92
+IN TRIANGLE 1
+Skipping point....
+X : 172
+Y : 113
+IN TRIANGLE 1
+Skipping point....
+X : 173
+Y : 29
+IN TRIANGLE 1
+Skipping point....
+X : 176
+Y : 73
+IN TRIANGLE 1
+Skipping point....
+X : 178
+Y : 34
+IN TRIANGLE 1
+Skipping point....
+X : 178
+Y : 76
+IN TRIANGLE 1
+Skipping point....
+X : 180
+Y : 91
+IN TRIANGLE 0
+INSERTING TOP...
+X : 181
+Y : 9
+IN TRIANGLE 1
+Skipping point....
+X : 183
+Y : 70
+IN TRIANGLE 1
+Skipping point....
+X : 185
+Y : 25
+IN TRIANGLE 1
+Skipping point....
+X : 186
+Y : 26
+IN TRIANGLE 1
+Skipping point....
+X : 187
+Y : 142
+IN TRIANGLE 1
+Skipping point....
+X : 190
+Y : 44
+IN TRIANGLE 1
+Skipping point....
+X : 190
+Y : 98
+IN TRIANGLE 1
+Skipping point....
+X : 190
+Y : 124
+IN TRIANGLE 1
+Skipping point....
+X : 193
+Y : 35
+IN TRIANGLE 1
+Skipping point....
+X : 195
+Y : 58
+IN TRIANGLE 1
+Skipping point....
+X : 196
+Y : 99
+IN TRIANGLE 1
+Skipping point....
+X : 196
+Y : 117
+First Subset of size 10
+
+1
+X : 36
+Y : 0
+
+2
+X : 40
+Y : 6
+
+3
+X : 51
+Y : 3
+
+4
+X : 101
+Y : 6
+
+5
+X : 106
+Y : 2
+
+6
+X : 126
+Y : 13
+
+7
+X : 138
+Y : 13
+
+8
+X : 167
+Y : 14
+
+9
+X : 168
+Y : 11
+
+10
+X : 181
+Y : 9
+Second Subset of size 0
+Before Recursion Hull of Size 8
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+Recursive Entry Src size 10
+1
+X : 36
+Y : 0
+
+2
+X : 40
+Y : 6
+
+3
+X : 51
+Y : 3
+
+4
+X : 101
+Y : 6
+
+5
+X : 106
+Y : 2
+
+6
+X : 126
+Y : 13
+
+7
+X : 138
+Y : 13
+
+8
+X : 167
+Y : 14
+
+9
+X : 168
+Y : 11
+
+10
+X : 181
+Y : 9
+LEFTMOST POINT
+X : 1
+Y : 5
+RIGHTMOST POINT
+X : 199
+Y : 19
+FARTHEST POINT >> Entering Hull...
+X : 106
+Y : 2
+IN TRIANGLE 0
+INSERTING TOP...
+X : 36
+Y : 0
+IN TRIANGLE 1
+Skipping point....
+X : 40
+Y : 6
+IN TRIANGLE 0
+INSERTING TOP...
+X : 51
+Y : 3
+IN TRIANGLE 1
+Skipping point....
+X : 101
+Y : 6
+IN TRIANGLE 1
+Skipping point....
+X : 126
+Y : 13
+IN TRIANGLE 1
+Skipping point....
+X : 138
+Y : 13
+IN TRIANGLE 1
+Skipping point....
+X : 167
+Y : 14
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 168
+Y : 11
+IN TRIANGLE 0
+INSERTING BOTTOM...
+X : 181
+Y : 9
+First Subset of size 2
+
+1
+X : 36
+Y : 0
+
+2
+X : 51
+Y : 3
+Second Subset of size 2
+
+1
+X : 168
+Y : 11
+
+2
+X : 181
+Y : 9
+Before Recursion Hull of Size 9
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+Recursive Entry Src size 2
+1
+X : 36
+Y : 0
+
+2
+X : 51
+Y : 3
+LEFTMOST POINT
+X : 1
+Y : 5
+RIGHTMOST POINT
+X : 106
+Y : 2
+FARTHEST POINT >> Entering Hull...
+X : 36
+Y : 0
+IN TRIANGLE 1
+Skipping point....
+X : 51
+Y : 3
+First Subset of size 0
+Second Subset of size 0
+Before Recursion Hull of Size 10
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+
+10
+X : 36
+Y : 0
+Returning From Recursion since no points exist
+Returning From Recursion since no points exist
+After Recursion Hull of Size 10
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+
+10
+X : 36
+Y : 0
+Recursive Entry Src size 2
+1
+X : 168
+Y : 11
+
+2
+X : 181
+Y : 9
+LEFTMOST POINT
+X : 106
+Y : 2
+RIGHTMOST POINT
+X : 199
+Y : 19
+FARTHEST POINT >> Entering Hull...
+X : 181
+Y : 9
+IN TRIANGLE 1
+Skipping point....
+X : 168
+Y : 11
+First Subset of size 0
+Second Subset of size 0
+Before Recursion Hull of Size 11
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+
+10
+X : 36
+Y : 0
+
+11
+X : 181
+Y : 9
+Returning From Recursion since no points exist
+Returning From Recursion since no points exist
+After Recursion Hull of Size 11
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+
+10
+X : 36
+Y : 0
+
+11
+X : 181
+Y : 9
+After Recursion Hull of Size 11
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+
+10
+X : 36
+Y : 0
+
+11
+X : 181
+Y : 9
+Returning From Recursion since no points exist
+After Recursion Hull of Size 11
+
+1
+X : 1
+Y : 5
+
+2
+X : 199
+Y : 154
+
+3
+X : 4
+Y : 194
+
+4
+X : 2
+Y : 144
+
+5
+X : 1
+Y : 67
+
+6
+X : 181
+Y : 199
+
+7
+X : 124
+Y : 198
+
+8
+X : 199
+Y : 19
+
+9
+X : 106
+Y : 2
+
+10
+X : 36
+Y : 0
+
+11
+X : 181
+Y : 9
+Printing Sorted Hull of size 11
+1
+X : 1
+Y : 5
+
+2
+X : 1
+Y : 67
+
+3
+X : 2
+Y : 144
+
+4
+X : 4
+Y : 194
+
+5
+X : 36
+Y : 0
+
+6
+X : 106
+Y : 2
+
+7
+X : 124
+Y : 198
+
+8
+X : 181
+Y : 9
+
+9
+X : 181
+Y : 199
+
+10
+X : 199
+Y : 19
+
+11
+X : 199
+Y : 154
