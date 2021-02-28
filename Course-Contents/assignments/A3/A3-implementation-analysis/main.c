@@ -8,6 +8,7 @@
 
 // HEADERS
 int driver(int argc, char** argv);
+void get_pattern(char* p);
 
 // TESTS
 void testSignature()
@@ -65,32 +66,33 @@ int driver(int argc, char** argv)
     }
 
     int running = 0;
-    void (*searchFunc)(char*, char**, int) = NULL;
+    void (*searchFunc1)(char*, char**, int) = NULL;
+    void (*searchFunc2)(char*, char*) = NULL;
 
     if(strcasecmp(argv[1], "P11") == 0)
     {
         running = 11;
-        searchFunc = &p11;
+        searchFunc1 = &p11;
     }
     else if (strcasecmp(argv[1], "P12") == 0)
     {
         running = 12;
-        searchFunc = &p12;
+        searchFunc1 = &p12;
     }
     else if (strcasecmp(argv[1], "P21") == 0)
     {
         running = 21;
-        searchFunc = &p21;
+        searchFunc2 = &p21;
     }
     else if (strcasecmp(argv[1], "P22") == 0)
     {
         running = 22;
-        searchFunc = &p22;
+        searchFunc2 = &p22;
     }
     else if (strcasecmp(argv[1], "P23") == 0)
     {
         running = 23;
-        searchFunc = &p23;
+        searchFunc2 = &p23;
     }
     
     char* fileName = NULL;
@@ -112,21 +114,44 @@ int driver(int argc, char** argv)
         fileName = argv[2];
     }
 
-    // read file
-    char* T[MAX_SIZE];
-    int TL = 0;
-    printf("FILE: %s\n", fileName);
-    getText(fileName, T, &TL);
-    printText(T, TL);
+    if(running / 10 == 1)
+    {
+        // read file
+        char* T[MAX_SIZE];
+        int TL = 0;
+        printf("FILE: %s\n", fileName);
+        get_text_P1(fileName, T, &TL);
+        print_text_P1(T, TL);
 
-    // prompt for a pattern
-    printf("Enter Pattern to search: ");
-    char pattern[MAX_SIZE];
-    getPattern(pattern);
-    printf("Searching for pattern '%s' in text\n", pattern);
-    
-    // search pattern
-    searchFunc(pattern, T, TL);
+        // prompt for a pattern
+        printf("Enter Pattern to search: ");
+        char pattern[MAX_SIZE];
+        get_pattern(pattern);
+        printf("Searching for pattern '%s' in text\n", pattern);
+        
+        // search pattern
+        searchFunc1(pattern, T, TL);
+    }
+    else if(running / 10 == 2)
+    {
+        // read file
+        char* T = malloc(sizeof(char) * MAX_SIZE * MAX_WORD_SIZE);
+        get_text_P2(fileName, T);
+        // printf("%s\n",T);
+
+        // prompt for a pattern
+        printf("Enter Pattern to search: ");
+        char pattern[MAX_SIZE];
+        get_pattern(pattern);
+        printf("Searching for pattern '%s' in text\n", pattern);
+
+        searchFunc2(pattern, T);
+    }
 
     return 0;
+}
+
+void get_pattern(char* p)
+{
+    scanf("%s", p);
 }

@@ -3,7 +3,7 @@
 # include <string.h>
 # include <sys/time.h>
 
-# ifndef MAX_SIZE
+# ifndef MAX_SIZE_CONST
 # define MAX_SIZE 50000
 # define MAX_WORD_SIZE 100
 
@@ -19,6 +19,8 @@ typedef struct word
 
 void print_words(Word* words, int len);
 void print_word(Word word);
+void get_text_P1(char* datapath, char** T, int* TL);
+void print_text_P1(char** T, int TL);
 
 
 // generates an integer based signature of a string s and stores it into the integer array d

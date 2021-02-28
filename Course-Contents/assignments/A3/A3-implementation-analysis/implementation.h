@@ -11,8 +11,5 @@
 # define MAX_SIZE 50000
 # endif
 
-// utils for both programs
-void getText(char* datapath, char** T, int* TL);
-void getPattern(char* p);
-void printText(char** T, int TL);
+
 

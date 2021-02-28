@@ -2,7 +2,9 @@
 # include "P2.h"
 # endif
 
-void p22(char* p, char** T, int TL)
+# define TABLE_SIZE 256 // total ascii characters
+
+void p22(char* p, char* T)
 {
-    printf("Running Horsepool's String Search\n");
+    printf("Running Horspool's String Search\n");
 }
