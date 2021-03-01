@@ -5,6 +5,7 @@
 void p11(char* p, char** T, int TL)
 {
     printf("Running Brute Force Anagram Search \n");
+    printf("Input Size: %d\n", TL);
 
     struct timeval startTime, endTime;
 

@@ -113,22 +113,21 @@ int driver(int argc, char** argv)
         fileName = argv[2];
     }
 
+    // get pattern
+    char pattern[MAX_SIZE];
+
+    if(argc == 4)
+        strcpy(pattern, argv[3]);
+    else
+        get_pattern(pattern);
+
     if(running / 10 == 1)
     {
         // read file
         char* T[MAX_SIZE];
         int TL = 0;
-        printf("FILE: %s\n", fileName);
         get_text_P1(fileName, T, &TL);
         // print_text_P1(T, TL);
-
-        // prompt for a pattern
-        char pattern[MAX_SIZE];
-
-        if(argc == 4)
-            strcpy(pattern, argv[3]);
-        else
-            get_pattern(pattern);
 
         printf("Searching : '%s' in file '%s'\n", pattern, fileName);
 
@@ -145,10 +144,6 @@ int driver(int argc, char** argv)
         // prompt for a pattern
         char pattern[MAX_SIZE];
 
-        if(argc == 4)
-            strcpy(pattern, argv[3]);
-        else
-            get_pattern(pattern);
         printf("Searching : '%s' in file '%s'\n", pattern, fileName);
         printf("\n_________________OUTPUTS__________________\n\n");
         searchFunc2(pattern, T);
