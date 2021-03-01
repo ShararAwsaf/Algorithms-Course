@@ -1,25 +1,26 @@
-Searching : 'thereafter' in file './data/data_5.txt'
+Searching : 'anondon' in file './data/data_5.txt'
 
-_________________RESULTS__________________
+_________________OUTPUTS__________________
 
 Running Boyer-Moore's String Search
 Input Size: 3300592
-| A  | B  | C  | D  | E  | F  | G  | H  | I  | J  | K  | L  | M  | N  | O  | P  | Q  | R  | S  | T  | U  | V  | W  | X  | Y  | Z  | [  | \  | ]  | ^  | _  | `  | a  | b  | c  | d  | e  | f  | g  | h  | i  | j  | k  | l  | m  | n  | o  | p  | q  | r  | s  | t  | u  | v  | w  | x  | y  | z  
-| 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 4  | 10  | 10  | 10  | 1  | 3  | 10  | 8  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 10  | 6  | 10  | 2  | 10  | 10  | 10  | 10  | 10  | 10  
+Pattern Size: 7
 
---------GOOD SUFFIX--------
+--------HORSPOOL TABLE--------
+| A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   | N   | O   | P   | Q   | R   | S   | T   | U   | V   | W   | X   | Y   | Z   | [   | \   | ]   | ^   | _   | `   | a   | b   | c   | d   | e   | f   | g   | h   | i   | j   | k   | l   | m   | n   | o   | p   | q   | r   | s   | t   | u   | v   | w   | x   | y   | z   
+| 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 6   | 7   | 7   | 2   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 3   | 1   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   
+------------------------------
+
+--------GOOD SUFFIX TABLE--------
 k: 0 | pattern:  | d2: -1
-k: 1 | pattern: r | d2: 10
-k: 2 | pattern: er | d2: 6
-k: 3 | pattern: ter | d2: 10
-k: 4 | pattern: fter | d2: 10
-k: 5 | pattern: after | d2: 10
-k: 6 | pattern: eafter | d2: 10
-k: 7 | pattern: reafter | d2: 10
-k: 8 | pattern: ereafter | d2: 10
-k: 9 | pattern: hereafter | d2: 10
----------------------------
-Pattern shifts: 407470
-Total Matches: 11
-Total Time to Run: 7.995000 ms
+k: 1 | pattern: n | d2: 5
+k: 2 | pattern: on | d2: 3
+k: 3 | pattern: don | d2: 7
+k: 4 | pattern: ndon | d2: 7
+k: 5 | pattern: ondon | d2: 7
+k: 6 | pattern: nondon | d2: 7
+---------------------------------
+Pattern shifts: 519264
+Total Matches: 0
+Total Time to Run: 8.748000 ms
 __________________________________________

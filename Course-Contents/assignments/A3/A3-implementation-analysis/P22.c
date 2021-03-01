@@ -7,6 +7,8 @@ void p22(char* p, char* T)
 {
     printf("Running Horspool's String Search\n");
     printf("Input Size: %lu\n", strlen(T));
+    printf("Pattern Size: %lu\n", strlen(p));
+
     struct timeval startTime, endTime;
 
     gettimeofday(&startTime, NULL);
@@ -84,14 +86,28 @@ int HorsPoolStringMatching(char* P, char* T)
 
 void printTable(int* TB, int TBL)
 {
+    printf("\n--------HORSPOOL TABLE--------\n");
+
     int start = 65;
     int end = 122;
     for(int i=start; i<= end; i++)
-        printf("| %c  ", i);
+        printf("| %c   ", i);
     printf("\n");
     for(int i=start; i<= end; i++)
-        printf("| %d  ", TB[i]);
+    {
+        char s[100];
+        if(TB[i] / 10 > 0)
+        {
+            strcpy(s, " ");
+        }
+        else
+            strcpy(s, "  ");
+
+        printf("| %d %s", TB[i], s);
+    }
     printf("\n");
+    printf("------------------------------\n");
+
     
 
 }

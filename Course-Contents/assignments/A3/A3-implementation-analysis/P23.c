@@ -6,6 +6,8 @@ void p23(char* p, char* T)
 {
     printf("Running Boyer-Moore's String Search\n");
     printf("Input Size: %lu\n", strlen(T));
+    printf("Pattern Size: %lu\n", strlen(p));
+
     struct timeval startTime, endTime;
 
     gettimeofday(&startTime, NULL);
@@ -193,7 +195,7 @@ void createGoodSuffixTable(char* P, int* GSTB, int GSTBL)
 
 void printGoodSuffixTable(int* TB, int TBL, char* P)
 {
-    printf("\n--------GOOD SUFFIX--------\n");
+    printf("\n--------GOOD SUFFIX TABLE--------\n");
     int m = strlen(P);
     for(int i=0; i<TBL; i++)
     {
@@ -202,7 +204,7 @@ void printGoodSuffixTable(int* TB, int TBL, char* P)
         printf(" | d2: %d\n", TB[i]);
 
     }
-    printf("---------------------------\n");
+    printf("---------------------------------\n");
 }
 
 void printSuffix(char* s, int sl, int suffixStart)

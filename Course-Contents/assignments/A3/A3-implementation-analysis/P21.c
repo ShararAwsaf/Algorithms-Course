@@ -6,6 +6,8 @@ void p21(char* p, char* T)
 {
     printf("Running Brute Force String Search\n");
     printf("Input Size: %lu\n", strlen(T));
+    printf("Pattern Size: %lu\n", strlen(p));
+
     struct timeval startTime, endTime;
 
     gettimeofday(&startTime, NULL);

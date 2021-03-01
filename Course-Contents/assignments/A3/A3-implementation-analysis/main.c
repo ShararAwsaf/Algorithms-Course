@@ -99,7 +99,6 @@ int driver(int argc, char** argv)
 
     if(argc == 2)
     {
-        printf("DEFAULT ");
         if (running / 10 == 1)
         {
             fileName = DEFAULT_FILE_P1;
@@ -146,7 +145,7 @@ int driver(int argc, char** argv)
         else
             get_pattern(pattern);
         printf("Searching : '%s' in file '%s'\n", pattern, fileName);
-        printf("\n_________________RESULTS__________________\n\n");
+        printf("\n_________________OUTPUTS__________________\n\n");
         searchFunc2(pattern, T);
         printf("__________________________________________\n");
     }

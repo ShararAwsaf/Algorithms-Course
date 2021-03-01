@@ -1,0 +1,11 @@
+Searching : 'anondon' in file './data/data_5.txt'
+
+_________________OUTPUTS__________________
+
+Running Brute Force String Search
+Input Size: 3300592
+Pattern Size: 7
+Pattern Shifts: 3300585
+Total Matches: 0
+Total Time to Run: 15.379000 ms
+__________________________________________
