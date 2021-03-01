@@ -1,0 +1,10 @@
+Searching : 'BARBER' in file './data/data_5-book.txt'
+
+_________________RESULTS__________________
+
+Running Brute Force String Search
+Input Size: 26
+Pattern Shifts: 20
+Total Matches: 1
+Total Time to Run: 0.001000 ms
+__________________________________________

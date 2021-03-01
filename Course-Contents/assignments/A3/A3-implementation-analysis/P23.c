@@ -36,8 +36,8 @@ int BoyerMooreStringMatching(char* P, char* T)
 
     creatShiftTable(P, BST, BSTL);
     
-    // printTable(BST, BSTL);
-    // printGoodSuffixTable(GST, GSTL, P);
+    printTable(BST, BSTL);
+    printGoodSuffixTable(GST, GSTL, P);
 
 
     int n = strlen(T);
@@ -46,14 +46,15 @@ int BoyerMooreStringMatching(char* P, char* T)
     int i = m-1;
     while(i <= n-1)
     {
-        shifts+=1;
 
         // Skip bad symbols since they are not in pattern
         if((int)T[i] < 0 || (int)T[i] >= TABLE_SIZE)
         {
             i+=m;
+            shifts+=1;
             continue;
         }
+
         int k = 0;
 
         while(k <= m-1 && P[m-1-k] == T[i-k]) // i stays at the highest position
@@ -78,6 +79,8 @@ int BoyerMooreStringMatching(char* P, char* T)
                 skip = max(d1, d2);
             // printf("k: %d | d1: %d | d2: %d | skip: %d (%c)\n", k, d1, d2, skip, T[i-k]);
             i = i + skip;
+            shifts+=1;
+
         }
 
     }
@@ -190,6 +193,7 @@ void createGoodSuffixTable(char* P, int* GSTB, int GSTBL)
 
 void printGoodSuffixTable(int* TB, int TBL, char* P)
 {
+    printf("\n--------GOOD SUFFIX--------\n");
     int m = strlen(P);
     for(int i=0; i<TBL; i++)
     {
@@ -198,6 +202,7 @@ void printGoodSuffixTable(int* TB, int TBL, char* P)
         printf(" | d2: %d\n", TB[i]);
 
     }
+    printf("---------------------------\n");
 }
 
 void printSuffix(char* s, int sl, int suffixStart)

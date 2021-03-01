@@ -58,7 +58,7 @@ int driver(int argc, char** argv)
         printf("Provide program name and file name (optional)\n");
         return -1;
     }
-    else if(argc > 3)
+    else if(argc > 4)
     {
         printf("Too many arguments passed\n");
         printf("Provide program name and file name (optional)\n");
@@ -136,14 +136,16 @@ int driver(int argc, char** argv)
     {
         // read file
         char* T = malloc(sizeof(char) * MAX_SIZE * MAX_WORD_SIZE);
-        printf("FILE: %s\n", fileName);
         get_text_P2(fileName, T);
 
         // prompt for a pattern
-        printf("Enter Pattern to search: ");
         char pattern[MAX_SIZE];
-        get_pattern(pattern);
-        printf("Searching for pattern '%s' in text\n", pattern);
+
+        if(argc == 4)
+            strcpy(pattern, argv[3]);
+        else
+            get_pattern(pattern);
+        printf("Searching : '%s' in file '%s'\n", pattern, fileName);
         printf("\n_________________RESULTS__________________\n\n");
         searchFunc2(pattern, T);
         printf("__________________________________________\n");
@@ -154,5 +156,7 @@ int driver(int argc, char** argv)
 
 void get_pattern(char* p)
 {
+    printf("Enter Pattern to search: ");
+
     scanf("%s", p);
 }

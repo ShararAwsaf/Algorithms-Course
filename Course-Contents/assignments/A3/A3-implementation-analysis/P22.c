@@ -42,7 +42,8 @@ int HorsPoolStringMatching(char* P, char* T)
     int HTBL = TABLE_SIZE;
 
     creatShiftTable(P, HTB, HTBL);
-    // printTable(HTB, HTBL);
+    printTable(HTB, HTBL);
+
     int i = m-1;
 
     int matches = 0;
@@ -83,6 +84,14 @@ int HorsPoolStringMatching(char* P, char* T)
 
 void printTable(int* TB, int TBL)
 {
-    for(int i=0; i< TBL; i++)
-        printf("K: %d (%c) | V: %d\n", i, (char)i, TB[i]);
+    int start = 65;
+    int end = 122;
+    for(int i=start; i<= end; i++)
+        printf("| %c  ", i);
+    printf("\n");
+    for(int i=start; i<= end; i++)
+        printf("| %d  ", TB[i]);
+    printf("\n");
+    
+
 }
