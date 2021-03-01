@@ -43,15 +43,14 @@ void get_text_P1(char* datapath, char** T, int* TL)
     {
         // printf("%c",c);
         // printText(T, i+1);
-        if(c == '\n')
+        if((c == '\n' || c == ' '))
         {
-            // skips new lines
-        }
-        else if(c == ' ')
-        {
-            T[i][j]='\0'; // end previous word
-            i += 1;
-            j = 0;   
+            if(i == prev)
+            {
+                T[i][j]='\0'; // end previous word
+                i += 1;
+                j = 0;
+            }
         }
         else
         {

@@ -24,19 +24,21 @@ void p11(char* p, char** T, int TL)
 
 int sequential_search_anagram(char* t, char* p)
 {   
+    int m = strlen(p);
+    int n = strlen(t);
     // sizes don't match then not anagram
-    if(strlen(p) != strlen(t))
+    if( m != n)
         return -1;
  
 
     // tracks which characters have been previously hit
     int matched_characters[MAX_SIZE];
-    for(int i=0; i<strlen(t); i++)
+    for(int i=0; i<n; i++)
     {
         matched_characters[i] = 0;
     }
 
-    for(int i=0; i<strlen(p); i++)
+    for(int i=0; i<m; i++)
     {
         // try searching each letter in the string
         for(int j=0; j<strlen(t); j++)
@@ -54,7 +56,7 @@ int sequential_search_anagram(char* t, char* p)
     int search_matches=0;
     int same_as_pattern = 1;
     
-    while(search_matches<strlen(t) && matched_characters[search_matches] == 1)
+    while(search_matches<n && matched_characters[search_matches] == 1)
     {
         if(same_as_pattern == 1 && p[search_matches] != t[search_matches])
         {
@@ -64,7 +66,7 @@ int sequential_search_anagram(char* t, char* p)
         search_matches++;
     }
 
-    if(search_matches == strlen(t))
+    if(search_matches == n)
     {
         if(!same_as_pattern)
             return 1;
