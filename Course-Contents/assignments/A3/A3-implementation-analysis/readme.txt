@@ -1,0 +1,1 @@
+In case of shift counts, I am only counting the mismatch shifts not the cases where a match happens

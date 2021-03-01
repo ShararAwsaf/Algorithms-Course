@@ -49,6 +49,8 @@ int BoyerMooreStringMatching(char* P, char* T)
     while(i <= n-1)
     {
 
+        // shifts+=1; // should we always increase, or only when the skip is taking place
+
         // Skip bad symbols since they are not in pattern
         if((int)T[i] < 0 || (int)T[i] >= TABLE_SIZE)
         {

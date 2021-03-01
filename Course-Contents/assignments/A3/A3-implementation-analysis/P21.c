@@ -39,7 +39,6 @@ int brute_force_string_search(char* P, char* T)
         if(i+m > n)
             break;
 
-        shifts += 1;
         int j = 0;
         while(j < m && T[i+j] == P[j])
         {
@@ -47,7 +46,9 @@ int brute_force_string_search(char* P, char* T)
         }
         if(j==m)
             matches += 1;
-        
+        else
+            shifts += 1;
+
     }
 
     printf("Pattern Shifts: %d\n", shifts);

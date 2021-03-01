@@ -1,26 +1,24 @@
-Searching : 'anondon' in file './data/data_5.txt'
+Searching : 'ssiss' in file './data/data_52.txt'
 
 _________________OUTPUTS__________________
 
 Running Boyer-Moore's String Search
-Input Size: 3300592
-Pattern Size: 7
+Input Size: 3296590
+Pattern Size: 5
 
 --------HORSPOOL TABLE--------
-| A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   | N   | O   | P   | Q   | R   | S   | T   | U   | V   | W   | X   | Y   | Z   | [   | \   | ]   | ^   | _   | `   | a   | b   | c   | d   | e   | f   | g   | h   | i   | j   | k   | l   | m   | n   | o   | p   | q   | r   | s   | t   | u   | v   | w   | x   | y   | z   
-| 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 6   | 7   | 7   | 2   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 3   | 1   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   
+| i   | s   | other  
+| 2   | 1   | 5   
 ------------------------------
 
 --------GOOD SUFFIX TABLE--------
 k: 0 | pattern:  | d2: -1
-k: 1 | pattern: n | d2: 5
-k: 2 | pattern: on | d2: 3
-k: 3 | pattern: don | d2: 7
-k: 4 | pattern: ndon | d2: 7
-k: 5 | pattern: ondon | d2: 7
-k: 6 | pattern: nondon | d2: 7
+k: 1 | pattern: s | d2: 1
+k: 2 | pattern: ss | d2: 3
+k: 3 | pattern: iss | d2: 3
+k: 4 | pattern: siss | d2: 3
 ---------------------------------
-Pattern shifts: 519264
-Total Matches: 0
-Total Time to Run: 8.748000 ms
+Pattern shifts: 694391
+Total Matches: 1
+Total Time to Run: 10.754000 ms
 __________________________________________

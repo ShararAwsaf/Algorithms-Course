@@ -53,12 +53,15 @@ int HorsPoolStringMatching(char* P, char* T)
 
     while(i <= n-1)
     {
-        shifts+=1;
+        
+        // shifts+=1; // should we always increase, or only when the skip is taking place
 
         // Skip bad symbols since they are not in pattern
         if((int)T[i] < 0 || (int)T[i] >= TABLE_SIZE)
         {
             i+=m;
+            shifts+=1;
+
             continue;
         }
         int k = 0;
@@ -76,6 +79,8 @@ int HorsPoolStringMatching(char* P, char* T)
         else // in case of mismatch i skips as much permitted by table
         {
             i = i + HTB[(int)T[i]];
+            shifts+=1;
+
         }
         
     }
@@ -87,13 +92,16 @@ int HorsPoolStringMatching(char* P, char* T)
 void printTable(int* TB, int TBL)
 {
     printf("\n--------HORSPOOL TABLE--------\n");
-
-    int start = 65;
-    int end = 122;
-    for(int i=start; i<= end; i++)
-        printf("| %c   ", i);
+    int other = TB[255];
+    for(int i=0; i< TBL; i++)
+    {
+        if(TB[i] != other)
+            printf("| %c   ", i);
+        if(i==255) // the other fields are equal to length of string
+            printf("| other  ");
+    }
     printf("\n");
-    for(int i=start; i<= end; i++)
+    for(int i=0; i< TBL; i++)
     {
         char s[100];
         if(TB[i] / 10 > 0)
@@ -103,8 +111,13 @@ void printTable(int* TB, int TBL)
         else
             strcpy(s, "  ");
 
-        printf("| %d %s", TB[i], s);
+
+        if(TB[i] != other)
+            printf("| %d %s", TB[i], s);
+        if(i==255) // the other fields are equal to length of string
+            printf("| %d %s", TB[i], s);
     }
+    
     printf("\n");
     printf("------------------------------\n");
 
