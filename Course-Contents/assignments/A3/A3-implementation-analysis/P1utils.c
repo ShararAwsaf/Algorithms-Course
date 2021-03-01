@@ -4,12 +4,12 @@
 
 int compare_characters(const void* c1, const void* c2)
 {
-    return *(char*)c1 - *(char*)c2;
+    return *(char*)c2 - *(char*)c1; // sorting in descending to put 0s to the end in case value based comparisons are made
 }
 
 int compare_words(const void* w1, const void* w2)
 {
-    return ( (*(Word*)w1).word_value - (*(Word*)w2).word_value );
+    return ( (*(Word*)w2).word_value - (*(Word*)w1).word_value );
 }
 
 void generate_signature(char* s, char* d)

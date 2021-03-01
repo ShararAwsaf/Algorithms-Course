@@ -120,13 +120,18 @@ int driver(int argc, char** argv)
         int TL = 0;
         printf("FILE: %s\n", fileName);
         get_text_P1(fileName, T, &TL);
-        print_text_P1(T, TL);
+        // print_text_P1(T, TL);
 
         // prompt for a pattern
-        printf("Enter Pattern to search: ");
         char pattern[MAX_SIZE];
-        get_pattern(pattern);
-        printf("Searching for pattern '%s' in text\n", pattern);
+
+        if(argc == 4)
+            strcpy(pattern, argv[3]);
+        else
+            get_pattern(pattern);
+
+        printf("Searching : '%s' in file '%s'\n", pattern, fileName);
+
         
         // search pattern
         searchFunc1(pattern, T, TL);
