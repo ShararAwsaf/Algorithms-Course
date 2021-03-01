@@ -21,3 +21,11 @@ void get_text_P2(char* datapath, char* T)
 
     fclose(fptr);
 }
+
+int max(int a, int b)
+{
+    if(b>a)
+        return b;
+    return a;
+}
+

@@ -30,11 +30,11 @@ int brute_force_string_search(char* P, char* T)
     int n = strlen(T);
     int m = strlen(P);
 
-    int shifts = 0;
+    int shifts = -1; // since the first iteration is not a shift
 
-    for(int i=0; i<n; i++)
+    for(int i=0; ; i++)
     {        
-        if(i+m-1 >= n)
+        if(i+m > n)
             break;
 
         shifts += 1;
@@ -52,3 +52,5 @@ int brute_force_string_search(char* P, char* T)
 
     return matches;
 }
+
+

@@ -8,4 +8,8 @@
 # define MAX_SIZE 50000
 # endif
 
+# ifndef MAX_MACRO
+# endif
+
 void get_text_P2(char* datapath, char* T);
+int max(int a, int b);
