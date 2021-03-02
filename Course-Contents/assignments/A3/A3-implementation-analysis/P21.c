@@ -32,7 +32,7 @@ int brute_force_string_search(char* P, char* T)
     int n = strlen(T);
     int m = strlen(P);
 
-    int shifts = -1; // since the first iteration is not a shift
+    int shifts = 0; // since the first iteration is not a shift
 
     for(int i=0; ; i++)
     {        
@@ -46,7 +46,7 @@ int brute_force_string_search(char* P, char* T)
         }
         if(j==m)
             matches += 1;
-        else
+        else // shift needed upon mismatch
             shifts += 1;
 
     }

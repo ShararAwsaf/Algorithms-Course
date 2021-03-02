@@ -141,9 +141,6 @@ int driver(int argc, char** argv)
         char* T = malloc(sizeof(char) * MAX_SIZE * MAX_WORD_SIZE);
         get_text_P2(fileName, T);
 
-        // prompt for a pattern
-        char pattern[MAX_SIZE];
-
         printf("Searching : '%s' in file '%s'\n", pattern, fileName);
         printf("\n_________________OUTPUTS__________________\n\n");
         searchFunc2(pattern, T);

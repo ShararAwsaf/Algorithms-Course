@@ -1,11 +1,11 @@
-Searching : 'ssiss' in file './data/data_52.txt'
+Searching : 'ssiss' in file './data/data_5.txt'
 
 _________________OUTPUTS__________________
 
 Running Brute Force String Search
-Input Size: 3296590
+Input Size: 3300592
 Pattern Size: 5
-Pattern Shifts: 3296585
+Pattern Shifts: 3300587
 Total Matches: 1
-Total Time to Run: 13.734000 ms
+Total Time to Run: 13.777000 ms
 __________________________________________

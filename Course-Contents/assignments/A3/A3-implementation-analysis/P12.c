@@ -6,6 +6,7 @@ void p12(char* p, char** T, int TL)
 {
     printf("Running Presorting Based Anagram Search \n");
     printf("Input Size: %d\n", TL);
+    printf("Pattern Size: %lu\n", strlen(p));
 
     struct timeval startTime, endTime;
 

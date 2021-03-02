@@ -44,7 +44,7 @@ int HorsPoolStringMatching(char* P, char* T)
     int HTBL = TABLE_SIZE;
 
     creatShiftTable(P, HTB, HTBL);
-    printTable(HTB, HTBL);
+    // printTable(HTB, HTBL);
 
     int i = m-1;
 
@@ -78,7 +78,10 @@ int HorsPoolStringMatching(char* P, char* T)
         }
         else // in case of mismatch i skips as much permitted by table
         {
+            // printf("%c: %d | i: %d i-k: %d\n", T[i], HTB[(int)T[i]], i, i-k);
+
             i = i + HTB[(int)T[i]];
+
             shifts+=1;
 
         }

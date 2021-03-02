@@ -38,8 +38,9 @@ int BoyerMooreStringMatching(char* P, char* T)
 
     creatShiftTable(P, BST, BSTL);
     
-    printTable(BST, BSTL);
-    printGoodSuffixTable(GST, GSTL, P);
+    // Print the Bad symbol and Good Suffix Tables
+    // printTable(BST, BSTL);
+    // printGoodSuffixTable(GST, GSTL, P);
 
 
     int n = strlen(T);
