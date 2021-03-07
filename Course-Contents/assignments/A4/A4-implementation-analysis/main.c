@@ -47,9 +47,11 @@ int driver(int argc, char** argv)
         fileName = argv[2];
     printf("FILENAME: %s\n", fileName);
 
-    // fill items
+    // fill items (1 indexed fill-up)
     Item items[MAX_SIZE];
-    int n = 0;
+    strcpy(items[0].data, "\0");
+    items[0].freq = 0;
+    int n = 1;
 
     readFile(fileName, items, &n);    
     obstCreateFunc(items, n);

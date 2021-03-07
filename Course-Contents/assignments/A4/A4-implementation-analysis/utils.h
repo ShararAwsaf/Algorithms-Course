@@ -1,3 +1,6 @@
+# include <stdio.h>
+# include <stdlib.h>
+# include <ctype.h>
 # include <string.h>
 
 # define MAX_WORD_SIZE 100
@@ -10,6 +13,8 @@ typedef struct item
 } Item;
 
 // reads the file and populates Item
-void readFile(char* fileName, Item* items, int* N);
-int populateFrequency(Item* items, int n);
-int create1indexedArray(Item* items, int n, Item* newItemArray, int* N);
+void readFile(char* fileName, Item* items, int* n);
+void populateItem(char* data, Item* items, int* n);
+void printItem(Item item);
+void printItems(Item* items, int n);
+int compareItem(const void* it1, const void*  it2);

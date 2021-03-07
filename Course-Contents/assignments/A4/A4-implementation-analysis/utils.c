@@ -21,18 +21,24 @@ void readFile(char* fileName, Item* items, int* n)
     
     while(fread(&c, 1, 1, fptr))
     {
-        if((c == '\n' || c == ' '))
+        // remove garbage
+        if(c < 0)
+            continue;
+        if(c == '\n' || c == ' ')
         {
             if(i == prev)
             {
+                
                 data[j]='\0'; // end previous word
                 populateItem(data, items, n);
                 i += 1;
                 j = 0;
+                
             }
         }
         else
         {
+            
             if(i > prev)
             {
                 // static object needs no malloc
@@ -43,7 +49,9 @@ void readFile(char* fileName, Item* items, int* n)
 
             data[j] = c;
             j += 1;
+
         }
+
     }
     fclose(fptr);
 }
@@ -71,18 +79,32 @@ void populateItem(char* data, Item* items, int* n)
 
 void printItem(Item item)
 {
-    printf("D: %s | f(D): %ld\n", item.data, item.freq);
+    printf("D: %s | f(D): %ld | l(D): %lu\n", item.data, item.freq, strlen(item.data));
 }
 
 void printItems(Item* items, int n)
 {
     int totalFreq = 0;
+    int skip = 0;
     for(int i=0; i< n; i++)
     {
+        if(strcmp(items[i].data, "") == 0)
+            skip += 1;
         printf("%d) ", i);
         printItem(items[i]);
         totalFreq += items[i].freq;
     }
-    printf("Total Unique Items: %d\n", n);
+    printf("Total Items: %d\n", n);
+    printf("Total Unique Items: %d\n", n-skip);
+    printf("Skipped Items: %d\n", skip);
     printf("Total Frequency: %d\n", totalFreq);
+}
+
+int compareItem(const void* it1, const void*  it2)
+{
+
+    char* s1 = ((Item*)it1)->data;
+    char* s2 = ((Item*)it2)->data;
+
+    return strcmp( s1, s2 );
 }
