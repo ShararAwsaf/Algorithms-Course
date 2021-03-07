@@ -69,27 +69,29 @@ int driver(int argc, char** argv)
     void (*searchFunc1)(char*, char**, int) = NULL;
     void (*searchFunc2)(char*, char*) = NULL;
 
-    if(strcasecmp(argv[1], "P11") == 0)
+    // program name transformation
+    argv[1][0] = toupper(argv[1][0]);
+    if(strcmp(argv[1], "P11") == 0)
     {
         running = 11;
         searchFunc1 = &p11;
     }
-    else if (strcasecmp(argv[1], "P12") == 0)
+    else if (strcmp(argv[1], "P12") == 0)
     {
         running = 12;
         searchFunc1 = &p12;
     }
-    else if (strcasecmp(argv[1], "P21") == 0)
+    else if (strcmp(argv[1], "P21") == 0)
     {
         running = 21;
         searchFunc2 = &p21;
     }
-    else if (strcasecmp(argv[1], "P22") == 0)
+    else if (strcmp(argv[1], "P22") == 0)
     {
         running = 22;
         searchFunc2 = &p22;
     }
-    else if (strcasecmp(argv[1], "P23") == 0)
+    else if (strcmp(argv[1], "P23") == 0)
     {
         running = 23;
         searchFunc2 = &p23;

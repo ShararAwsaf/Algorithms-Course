@@ -49,18 +49,18 @@ int HorsPoolStringMatching(char* P, char* T)
     int i = m-1;
 
     int matches = 0;
-    int shifts = 0;
+    int shifts = -1; // since the first iteration is not a shift
 
     while(i <= n-1)
     {
         
-        // shifts+=1; // should we always increase, or only when the skip is taking place
+        shifts+=1; // should we always increase, or only when the skip is taking place
 
         // Skip bad symbols since they are not in pattern
         if((int)T[i] < 0 || (int)T[i] >= TABLE_SIZE)
         {
             i+=m;
-            shifts+=1;
+            // shifts+=1;
 
             continue;
         }
@@ -82,7 +82,7 @@ int HorsPoolStringMatching(char* P, char* T)
 
             i = i + HTB[(int)T[i]];
 
-            shifts+=1;
+            // shifts+=1;
 
         }
         
