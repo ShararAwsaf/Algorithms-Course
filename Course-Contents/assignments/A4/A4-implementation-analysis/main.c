@@ -6,11 +6,13 @@
 
 // headers
 int driver(int argc, char** argv);
-
+void testTablePrint();
 
 int main(int argc, char** argv)
 {
-    int result = driver(argc, argv);
+    int result = 0;
+    result = driver(argc, argv);
+    // testTablePrint();
     return result;
 }
 
@@ -57,4 +59,30 @@ int driver(int argc, char** argv)
     obstCreateFunc(items, n);
 
     return 0;
+}
+
+void testTablePrint()
+{
+    // create table
+    TableCell** Table = malloc(sizeof(TableCell*)*MAX_TABLE_SIZE);
+    int n = 2;
+    
+    int rows = n+2;
+    int cols = n+1;
+    for(int i=0; i<rows; i++)
+    {
+        Table[i] = malloc(sizeof(TableCell)*MAX_TABLE_SIZE);
+
+        for(int j=0; j<cols; j++)
+        {
+            Table[i][j].cost = 22;
+            Table[i][j].root = 45;
+        }
+    }
+
+    Table[0][0] = (TableCell){ .cost=35, .root=27};
+    printTableCell( ((TableCell*)Table[0]) [0]);
+    printf("\n");
+
+    printTable(rows, cols, Table);
 }

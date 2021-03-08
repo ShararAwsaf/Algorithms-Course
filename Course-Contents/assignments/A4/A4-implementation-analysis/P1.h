@@ -8,6 +8,7 @@
 # endif
 
 # define MAX_SIZE 5000
+# define MAX_TABLE_SIZE 680 // cannot make this too big
 
 // Tree Data Structure
 typedef struct treeNode
@@ -21,7 +22,7 @@ typedef struct treeNode
 typedef struct tableCell
 {
     long cost;
-    long root;
+    int root;
 } TableCell;
 
 // top-level api
@@ -31,7 +32,7 @@ void p11(Item* items, int n);
 void printBinaryTree(TreeNode* tree);
 void printTreeNode(TreeNode node);
 void printTableCell(TableCell cell);
-void printTable(TableCell* table, int rows, int cols);
+void printTable(int rows, int cols, TableCell** table);
 
 // create cost table with associated roots
 // assumes items are 1 indexed [1..n], i.e. size N = n+1
