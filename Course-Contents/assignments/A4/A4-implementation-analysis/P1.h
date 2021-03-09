@@ -1,23 +1,7 @@
-# include <stdio.h>
-# include <ctype.h>
-# include <sys/time.h>
-# include <stdlib.h>
-# include <math.h>
-
-# ifndef UTILS_H
-# include "utils.h"
+# ifndef P1UTILS_H
+# include "P1utils.h"
 # endif
 
-# define MAX_SIZE 5000
-# define MAX_TABLE_SIZE 680 // cannot make this too big
-
-// Tree Data Structure
-typedef struct treeNode
-{
-    char string[MAX_WORD_SIZE];
-    struct treeNode* leftSubtree;
-    struct treeNode* rightSubtree;
-} TreeNode;
 
 // Table Data Structure
 typedef struct tableCell
@@ -27,15 +11,17 @@ typedef struct tableCell
 } TableCell;
 
 // top-level api
-void p11(Item* items, int n);
+void p11(Item* items, int n, char* pattern);
+void p12(Item* items, int n, char* pattern);
 
-// helpers
-void printTreeInOrder(TreeNode* tree);
-void printTreeNode(TreeNode* node);
+
 void printTableCell(TableCell cell);
 void printTable(int rows, int cols, TableCell** table);
-TreeNode* createTreeNode(char* string, TreeNode* leftSubTree, TreeNode* rightSubTree);
 
+
+/**
+ * Creating Optimal Binary Search Tree with Dynamic Programming
+ * **/
 // create cost table with associated roots
 // assumes items are 1 indexed [1..n], i.e. size N = n+1
 // Table has rows: n+2 and cols: n+1
@@ -45,10 +31,13 @@ void createCostTable(Item* items, int N, TableCell** costTable, int* rows, int* 
 
 // creates optimum binary search tree from items provided 
 // assumes items are 1 indexed
-TreeNode* findSubtreeRecursive(Item* items, int N, int L, int R, TableCell** costTable, int rows, int cols);
+TreeNode* createSubtreeRecursiveFromTable(Item* items, int N, int L, int R, TableCell** costTable, int rows, int cols);
 TreeNode* createTreeFromTable(Item* items, int N, TableCell** costTable, int rows, int cols);
-TreeNode* createOBST(Item* items, int N);
+TreeNode* createOBSTDP(Item* items, int N);
 
-// search tree for item, print steps along the way
-// return 1 for find 0 for not found
-int searchOBST(char* searchItem, TreeNode* obst);
+/**
+ * Creating Optimal Binary Search Tree with Greedy Technique
+ * **/
+TreeNode* createOBSTGreedy(Item* items, int N);
+TreeNode* createSubtreeRecursiveGreedy(Item* items, int N, int L, int R);
+TreeNode* createTreeFromSortedSequence(Item* items, int N);

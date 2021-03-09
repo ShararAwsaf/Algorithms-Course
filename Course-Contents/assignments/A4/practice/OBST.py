@@ -71,7 +71,7 @@ def print_CR_Table(CR_Table):
         if i: # skip the 0-th row
             print('{}:'.format(i), end=' ')
             for cell in r:
-                print("[({:.3f})({})] ".format(cell.C, cell.R), sep=' ', end=" ")
+                print("[({:.0f})({})] ".format(cell.C, cell.R), end=' '*(4-len(str(cell.R))))
             print()
             
 
@@ -160,13 +160,22 @@ def printItems(items):
         print(" {} : {} ".format(i.v, i.prob))
 
 
+# TA = [
+#         Item('D', 0.100),
+#         Item('B', 0.020),
+#         Item('A', 0.213),
+#         Item('C', 0.547),
+#         Item('E', 0.12),
+#     ]
+
 TA = [
-        Item('D', 0.100),
-        Item('B', 0.020),
-        Item('A', 0.213),
-        Item('C', 0.547),
-        Item('E', 0.12),
-    ]
+
+    Item('C', 4),
+    Item('A', 1),
+    Item('B', 2),
+    Item('D', 3),
+
+]
 
 CreateOBST(TA)
 

@@ -2,7 +2,7 @@
 # include "P1.h"
 # endif
 
-void p11(Item* items, int n)
+void p11(Item* items, int n, char* pattern)
 {
 
     printf("Running OBST using Dynamic Programming....\n");
@@ -10,22 +10,20 @@ void p11(Item* items, int n)
     // printItems(items, n); // items is 1 indexed
     
     TreeNode* obst = NULL;
-    obst = createOBST(items, n);
+    obst = createOBSTDP(items, n);
     // TreeNode* tmpRoot = obst;
     printTreeInOrder(obst);
 
-    char s[] = "undergraduate\0";
-    int r = searchOBST(s, obst);
-    
-    printf("'%s' ", s);
+    int r = searchOBST(pattern, obst);
+
     if(r == 0)
-        printf("found\n");
+        printf("found '%s'\n", pattern);
     else
-        printf("not found (%d)\n", r);
+        printf("Not found '%s'\n", pattern);
 
 }
 
-TreeNode* createOBST(Item* items, int N)
+TreeNode* createOBSTDP(Item* items, int N)
 {
     
     // sort items
@@ -114,7 +112,7 @@ void createCostTable(Item* items, int N, TableCell** costTable, int* rows, int* 
 
 }
 
-TreeNode* findSubtreeRecursive(Item* items, int N, int L, int R, TableCell** costTable, int rows, int cols)
+TreeNode* createSubtreeRecursiveFromTable(Item* items, int N, int L, int R, TableCell** costTable, int rows, int cols)
 {
     int R_lr = costTable[L][R].root;
 
@@ -123,11 +121,11 @@ TreeNode* findSubtreeRecursive(Item* items, int N, int L, int R, TableCell** cos
     // printf("L:%d R:%d\n", L, R);
     // printf("Going Left @ %s\n", node->string);
     if (R_lr-1 >= L)
-        node->leftSubtree = findSubtreeRecursive(items, N, L, R_lr-1, costTable, rows, cols);
+        node->leftSubtree = createSubtreeRecursiveFromTable(items, N, L, R_lr-1, costTable, rows, cols);
 
     // printf("Going Right @ %s\n", node->string);
     if (R >= R_lr+1)
-        node->rightSubtree = findSubtreeRecursive(items, N, R_lr+1, R, costTable, rows, cols);
+        node->rightSubtree = createSubtreeRecursiveFromTable(items, N, R_lr+1, R, costTable, rows, cols);
 
     // printf("Returning @ %s\n", node->string);
     return node;    
@@ -135,7 +133,7 @@ TreeNode* findSubtreeRecursive(Item* items, int N, int L, int R, TableCell** cos
 
 TreeNode* createTreeFromTable(Item* items, int N, TableCell** costTable, int rows, int cols)
 {
-    return findSubtreeRecursive(items, N, 1, N-1, costTable, rows, cols);
+    return createSubtreeRecursiveFromTable(items, N, 1, N-1, costTable, rows, cols);
 
 }
 
@@ -164,77 +162,4 @@ void printTable(int rows, int cols, TableCell** table)
     printf("ROWS: %d | COLS: %d\n", rows, cols);
 }
 
-TreeNode* createTreeNode(char* string, TreeNode* leftSubTree, TreeNode* rightSubTree)
-{
-    TreeNode* node = malloc(sizeof(TreeNode));
-    strcpy(node->string, string);
-    node->leftSubtree = leftSubTree;
-    node->rightSubtree = rightSubTree;
 
-    return node;
-}
-
-void printTreeNode(TreeNode* node)
-{
-    char d[MAX_WORD_SIZE];
-    char l[MAX_WORD_SIZE];
-    char r[MAX_WORD_SIZE];
-
-    strcpy(d, "*");
-    strcpy(l, "*");
-    strcpy(r, "*");
-    
-
-    if(node != NULL && strlen(node->string))
-        strcpy(d, node->string);
-
-    if(node->leftSubtree != NULL && strlen(node->leftSubtree->string))
-        strcpy(l, node->leftSubtree->string);
-
-    if(node->rightSubtree != NULL && strlen(node->rightSubtree->string))
-        strcpy(r, node->rightSubtree->string);
-
-    printf("     %s\n%s          %s\n", d, l, r);
-}
-
-void printTreeInOrder(TreeNode* tree)
-{
-
-    if(tree != NULL)
-    {
-        printTreeNode(tree);
-        printTreeInOrder(tree->leftSubtree);
-        printTreeInOrder(tree->rightSubtree);
-    }
-    
-}
-
-int searchOBST(char* searchItem, TreeNode* obst)
-{
-    if(obst == NULL)
-    {
-        return -5;
-    }
-
-    int compare_result = strcmp(obst->string, searchItem);
-    printf("Compared with '%s', ", obst->string);
-    
-    if(compare_result > 0)
-    {
-        printf("go to left subtree\n");
-        compare_result = searchOBST(searchItem, obst->leftSubtree);
-
-        
-    }
-    else if (compare_result < 0)
-    {
-        printf("go to right subtree\n");
-        compare_result = searchOBST(searchItem, obst->rightSubtree);
-    }
-    else
-    {
-        printf("found '%s'\n", searchItem);
-    }
-    
-    return compare_result;
-}
