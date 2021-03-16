@@ -37,11 +37,15 @@ TreeNode* createOBSTGreedy(Item* items, int N)
 TreeNode* createTreeFromSortedSequence(Item* items, int N)
 {
     TreeNode* tree = NULL;
-    tree = createSubtreeRecursiveGreedy(items, N, 0, N-1);
+    int totalFrequency = 0;
+    for(int i=0; i<N; i++)
+        totalFrequency += items[i].freq;
+
+    tree = createSubtreeRecursiveGreedy(items, N, totalFrequency, 0, N-1);
     return tree;
 }
 
-TreeNode* createSubtreeRecursiveGreedy(Item* items, int N, int L, int R)
+TreeNode* createSubtreeRecursiveGreedy(Item* items, int N, int totalFrequency, int L, int R)
 {
     if (L > R)
     {
@@ -59,10 +63,10 @@ TreeNode* createSubtreeRecursiveGreedy(Item* items, int N, int L, int R)
         }
     }
     // found max root (greedy)
-    TreeNode* root = createTreeNode(items[max_root_index].data, NULL, NULL);
+    TreeNode* root = createTreeNode(items[max_root_index].data, (double)items[max_root_index].freq/(double)totalFrequency, NULL, NULL);
 
-    root->leftSubtree = createSubtreeRecursiveGreedy(items, N, L, max_root_index-1);
-    root->rightSubtree = createSubtreeRecursiveGreedy(items, N, max_root_index+1, R);
+    root->leftSubtree = createSubtreeRecursiveGreedy(items, N, totalFrequency, L, max_root_index-1);
+    root->rightSubtree = createSubtreeRecursiveGreedy(items, N, totalFrequency, max_root_index+1, R);
 
     return root;
 }

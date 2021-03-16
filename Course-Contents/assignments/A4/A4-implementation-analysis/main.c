@@ -48,7 +48,7 @@ int driver(int argc, char** argv)
         obstCreateSearchFunc = &p11;
 
         // P11: DP OBST requires 1 indexed array (so adding buffer to index 0)
-        strcpy(items[0].data, "\0");
+        strcpy(items[0].data, "");
         items[0].freq = 0;
         n = 1;
     }
@@ -77,7 +77,8 @@ int driver(int argc, char** argv)
         get_pattern(pattern);
     printf("PATTERN: %s\n", pattern);
     
-    readFile(fileName, items, &n);    
+    readFile(fileName, items, &n);
+    
     obstCreateSearchFunc(items, n, pattern);
 
     return 0;

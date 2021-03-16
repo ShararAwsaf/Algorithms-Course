@@ -12,7 +12,7 @@ void p11(Item* items, int n, char* pattern)
     TreeNode* obst = NULL;
     obst = createOBSTDP(items, n);
     // TreeNode* tmpRoot = obst;
-    printTreeInOrder(obst);
+    // printTreeInOrder(obst);
 
     int r = searchOBST(pattern, obst);
 
@@ -47,13 +47,19 @@ void createCostTable(Item* items, int N, TableCell** costTable, int* rows, int* 
     (*rows) = n+2;
     (*cols) = n+1;
 
+    int itemCount = 0;
+    for(int i=1; i<N; i++)
+        itemCount += items[i].freq;
+
+    printf("TOTAL FREQUENCY: %d\n", itemCount);
+    
     for(int i=0; i<(*rows); i++)
     {
         costTable[i] = malloc(sizeof(TableCell)*MAX_TABLE_SIZE);
 
         for(int j=0; j<(*cols); j++)
         {
-            costTable[i][j].cost = 0;
+            costTable[i][j].cost = 0.0;
             costTable[i][j].root = -1;
         }
     }
@@ -62,19 +68,19 @@ void createCostTable(Item* items, int N, TableCell** costTable, int* rows, int* 
     for(int i=1; i< n+1; i++)
     {
         
-        costTable[i][i-1].cost = 0;
+        costTable[i][i-1].cost = 0.0;
         costTable[i][i-1].root = -1;
 
-        costTable[i][i].cost = items[i].freq;
+        costTable[i][i].cost = ((double)items[i].freq/(double)itemCount); // probability
         costTable[i][i].root = i;
 
     }
-    costTable[n+1][n].cost=0;
+    costTable[n+1][n].cost=0.0;
     costTable[n+1][n].root=-1 ;
     
     // printf("INITIALIZATION\n");
     // printTable( (*rows), (*cols), costTable);
-
+    
     for(int d=1; d<n; d++)
     {
         // printf("D: %d\n", d);
@@ -83,24 +89,26 @@ void createCostTable(Item* items, int N, TableCell** costTable, int* rows, int* 
         {
             int j = d+i;
             // printf("i: %d | j: %d\n", i ,j);
-            int min_cost = INT32_MAX;
+            double min_cost = INT32_MAX;
+            
             int min_root = -1;
 
             for(int l=i; l<j+1; l++)
             {
-                int cost = costTable[i][l-1].cost + costTable[l+1][j].cost;
+                double cost = costTable[i][l-1].cost + costTable[l+1][j].cost;
 
                 if (cost < min_cost)
                 {
                     min_cost = cost;
                     min_root = l;
                 }
+                
             }
 
-            int W = 0;
+            double W = 0.0;
             for(int s=i; s<j+1; s++)
             {
-                W += items[s].freq;
+                W = W + ((double)items[s].freq/(double)itemCount); // probability
             }
 
             costTable[i][j].cost = min_cost + W;
@@ -116,7 +124,7 @@ TreeNode* createSubtreeRecursiveFromTable(Item* items, int N, int L, int R, Tabl
 {
     int R_lr = costTable[L][R].root;
 
-    TreeNode* node = createTreeNode(items[R_lr].data, NULL, NULL);
+    TreeNode* node = createTreeNode(items[R_lr].data, costTable[L][R].cost, NULL, NULL);
 
     // printf("L:%d R:%d\n", L, R);
     // printf("Going Left @ %s\n", node->string);
@@ -142,7 +150,7 @@ TreeNode* createTreeFromTable(Item* items, int N, TableCell** costTable, int row
 void printTableCell(TableCell cell)
 {
     // printf("Cost: %ld | Root: %d : ", cell.cost, cell.root);
-    printf("[(%ld)(%d)] ", cell.cost, cell.root);
+    printf("[(%.3lf)(%d)] ", cell.cost, cell.root);
 
 }
 

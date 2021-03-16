@@ -15,6 +15,7 @@
 typedef struct treeNode
 {
     char string[MAX_WORD_SIZE];
+    double probability;
     struct treeNode* leftSubtree;
     struct treeNode* rightSubtree;
 } TreeNode;
@@ -22,7 +23,7 @@ typedef struct treeNode
 
 void printTreeInOrder(TreeNode* tree);
 void printTreeNode(TreeNode* node);
-TreeNode* createTreeNode(char* string, TreeNode* leftSubTree, TreeNode* rightSubTree);
+TreeNode* createTreeNode(char* string, double probabillity, TreeNode* leftSubTree, TreeNode* rightSubTree);
 
 // search tree for item, print steps along the way
 // return 0 for found else not found

@@ -6,7 +6,7 @@
 // Table Data Structure
 typedef struct tableCell
 {
-    long cost;
+    double cost;
     int root;
 } TableCell;
 
@@ -39,5 +39,5 @@ TreeNode* createOBSTDP(Item* items, int N);
  * Creating Optimal Binary Search Tree with Greedy Technique
  * **/
 TreeNode* createOBSTGreedy(Item* items, int N);
-TreeNode* createSubtreeRecursiveGreedy(Item* items, int N, int L, int R);
+TreeNode* createSubtreeRecursiveGreedy(Item* items, int N, int totalFrequency, int L, int R);
 TreeNode* createTreeFromSortedSequence(Item* items, int N);

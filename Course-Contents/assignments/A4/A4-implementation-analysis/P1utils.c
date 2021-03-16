@@ -2,10 +2,11 @@
 # include "P1.h"
 # endif
 
-TreeNode* createTreeNode(char* string, TreeNode* leftSubTree, TreeNode* rightSubTree)
+TreeNode* createTreeNode(char* string, double probabillity, TreeNode* leftSubTree, TreeNode* rightSubTree)
 {
     TreeNode* node = malloc(sizeof(TreeNode));
     strcpy(node->string, string);
+    node->probability = probabillity;
     node->leftSubtree = leftSubTree;
     node->rightSubtree = rightSubTree;
 
@@ -55,7 +56,7 @@ int searchOBST(char* searchItem, TreeNode* obst)
     }
 
     int compare_result = strcmp(obst->string, searchItem);
-    printf("Compared with '%s', ", obst->string);
+    printf("Compared with '%s'(%.4lf), ", obst->string, obst->probability);
     
     if(compare_result > 0)
     {

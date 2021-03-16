@@ -15,15 +15,20 @@ void readFile(char* fileName, Item* items, int* n)
 
     int i = 0;
     int j = 0;
+    int pos = 0;
     int prev = -1;
     char c;
     char* data = NULL;
-    
     while(fread(&c, 1, 1, fptr))
     {
-        // remove garbage
+        pos ++;
+        // remove garbage : comment this check if you want same results as prof on the costs (but can't search 'coding' as its messed up by other characters)
         if(c < 0)
+        {
+            // printf("Skipping: %c:%d (%d)\n", c, c, pos);
             continue;
+        }
+
         if(c == '\n' || c == ' ')
         {
             if(i == prev)
@@ -58,6 +63,7 @@ void readFile(char* fileName, Item* items, int* n)
 
 void populateItem(char* data, Item* items, int* n)
 {
+    
     // search for the item in the array of items
     for(int i=0; i<(*n); i++)
     {
@@ -107,4 +113,6 @@ int compareItem(const void* it1, const void*  it2)
     char* s2 = ((Item*)it2)->data;
 
     return strcmp( s1, s2 );
+    
+
 }
